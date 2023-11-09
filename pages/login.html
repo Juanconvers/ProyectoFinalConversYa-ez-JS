@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/images/legal-icon.png">
+    <title>login/legales.com</title>
+    <meta name="description"
+		content="Servicios legales digitales">
+	<meta name="keywords"
+		content="Servicios legales digitales">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link rel="stylesheet" href="../styles/main.style.css">
+</head>
+<body class="container-login">
+
+	<section class="login">
+    <!-- MENSAJE INTRODUCCIÓN -->
+        <div class="intro__box">
+            <h1 class="h1">CALCULADORA DE COMPETENCIA JUDICIAL</h1>
+            <h2 class="h2">Ingrese a su sesión personal para comenzar</h2>  
+            <div id="resultado" class="intro__box--alert"></div>
+        </div>
+       
+
+    <!-- FORMULARIO PARA LOGIN -->
+
+        <form id="formulario" class="login__box">
+            <img class="login__item" src="../assets/images/user-img.svg" alt="user_img">
+            <label class="login__item" for="username">Usuario</label>
+            <input class="login__item login__item--input" type="text" id="username" placeholder="Usuario" required>
+            <label class="login__item" for="password">Contraseña</label>
+            <input class="login__item login__item--input" type="password" id="password" placeholder="Contraseña" required>
+            <button class="login__item login__item--button" type="submit" id="submit">Iniciar Sesión</button>
+        </form>
+    </section>
+    
+    <script src="../scripts/login.js"></script>
+
+</body>
+</html>

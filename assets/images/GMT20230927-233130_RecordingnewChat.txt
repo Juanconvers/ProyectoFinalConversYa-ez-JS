@@ -1,0 +1,344 @@
+00:29:05	Ignacio Aladro:	Buenas buenas
+00:29:08	Ignacio Aladro:	Si profe
+00:29:10	Angelina Gonzalez:	Sii, super bien ambas cosas
+00:29:18	Amneris Calle:	Si, se escucha
+00:29:19	Kevin Silva:	buenas noches , si todo bien profe
+00:29:19	Mariano Figueroa Inzunza:	Buenasss
+00:29:42	Juan Camilo Convers Yañez:	Buenas noches compañeros!
+00:30:02	Geronimo Testoni:	Buenas noches a todos
+00:30:39	Dariana Barrientos:	Buenas nochesss
+00:32:00	Agustín Albano Riveros:	holi
+00:32:12	[Tutor]Juan Martin Haag:	Buenas buenas perdón la demora!
+00:32:37	Jimmy Navarrete:	Replying to "Buenas buenas perdón..."
+
+perdonado al mejor tutor ☝️
+00:32:48	[Tutor]Juan Martin Haag:	Reacted to "perdonado al mejor t..." with ❤️
+00:32:58	[Tutor]Juan Martin Haag:	Replying to "Buenas buenas perdón..."
+
+Grande Jimmy
+00:33:14	Juan Manuel Torres:	buenas
+00:33:22	[Tutor]Juan Martin Haag:	Reacted to "buenas" with 👋
+00:35:15	[Tutor]Juan Martin Haag:	Con lo de hoy le decimos Chau al prompt y alert(Excluyendo la segunda pre entrega)
+00:36:17	Juan José Medina:	Para la 3er entrega hace falta un html todo bonito o con algo básico sirve? Jajaja
+00:36:27	[tutor]-Marcelo Furlong:	ya nos comunicamos
+00:36:52	Pia Edrosa:	eso es mi proyecto!
+00:36:54	Pia Edrosa:	iuju
+00:37:04	Pia Edrosa:	claro
+00:40:49	Pia Edrosa:	si perfecto
+00:46:17	Matias Boettner:	se suele usar mas la 2?
+00:46:26	Johans Sanzana Pulgar:	podría explicar la opción 1 por favor
+00:46:45	[Tutor]Juan Martin Haag:	Replying to "se suele usar mas la..."
+
+Mati depende mucho del proyecto
+00:47:16	Aries Ali Altuve Sosa:	Buenas noches
+00:47:20	Agustín Albano Riveros:	el boton
+00:47:23	[Tutor]Juan Martin Haag:	Reacted to "Buenas noches " with 👋
+00:47:24	Pia Edrosa:	el nodo
+00:47:24	Urbano Molina:	la constante
+00:47:27	Jose Imbrenda:	el get element
+00:48:21	Agustín Albano Riveros:	déjenme con la opción 3 JJAA
+00:48:38	Pia Edrosa:	es como cuando agregas estilo con style y no con css
+00:48:53	[Tutor]Juan Martin Haag:	Replying to "es como cuando agreg..."
+
+claroo es similar
+00:48:56	Kadir Suira:	Si
+00:49:02	[tutor]-Marcelo Furlong:	es como se explica a la hora de separar HTML CSS y JavaScriptimagínense tener todo  en el HTML es un popurrí de cosas y no queda muy bien a la hora de trabajar y tratar de leer codigos
+00:49:22	Pia Edrosa:	Reacted to "claroo es similar" with 👍
+00:50:06	Johans Sanzana Pulgar:	mate
+00:50:14	Agustín Albano Riveros:	ruidito de mate
+00:50:19	Agustín Albano Riveros:	m encanta
+00:51:14	[Tutor]Juan Martin Haag:	Por aca igual yo prefiero usar addEventListener con JavaScript vainilla
+00:51:22	Melani Belen Morán:	Reacted to "{BD13B3B9-00D6-4F63-9AF1-B96D0A3DC909}.png" with ❤️
+00:51:25	Melani Belen Morán:	naa
+00:51:25	Angelina Gonzalez:	Nop
+00:51:27	Kadir Suira:	nop
+00:51:27	Juan Manuel Torres:	no no
+00:51:28	leon comolli:	no profe
+00:51:28	Juan Manuel Torres:	para nada
+00:51:29	Matias Boettner:	no rey
+00:51:29	Adrian Vargas:	NO
+00:51:29	Pia Edrosa:	noooooo
+00:51:30	Ignacio Aladro:	Todo bien profe
+00:51:30	leon comolli:	disfrute el mate
+00:51:31	Angelina Gonzalez:	tome tranquilo
+00:51:31	Federico Olariaga:	no
+00:51:31	Jimmy Navarrete:	genial tomeee
+00:51:32	Franco Pagano:	tome tranquilo
+00:51:35	Sandra Beatriz Cardenas Paredes:	Reacted to "no rey" with 😂
+00:51:37	Angelina Gonzalez:	y comparta uno
+00:51:40	Johans Sanzana Pulgar:	salud
+00:51:41	Jesús Pinto:	No profe
+00:51:44	leon comolli:	claro pase el mate
+00:51:44	leon comolli:	canuto
+00:51:48	Cristina Del Valle Rios:	Reacted to "Por aca igual yo pre..." with ❤️
+00:51:50	[Tutor]Juan Martin Haag:	Reacted to "canuto" with 😁
+00:51:50	Angelina Gonzalez:	Reacted to "canuto" with 😂
+00:51:56	Melani Belen Morán:	Reacted to "canuto" with 😂
+00:51:57	Federico Olariaga:	Reacted to "canuto" with 😂
+00:52:02	Federico Kahlke:	leo mateoli
+00:52:10	Johans Sanzana Pulgar:	tragar jaja
+00:54:12	Agustín Albano Riveros:	handler
+00:54:13	Jose Imbrenda:	r
+00:54:15	Pia Edrosa:	handler
+00:54:32	Matias Boettner:	onclick
+00:54:42	Agustín Albano Riveros:	addevent
+00:54:44	Matias Boettner:	yes\
+00:54:45	Jose Imbrenda:	addEventListener
+00:54:45	Diego Delachaux:	addeventlistener?
+00:59:11	Agustín Albano Riveros:	el script src esta despues
+00:59:12	Pia Edrosa:	rimero lee html
+00:59:12	Juan Manuel Torres:	primero lee el html y dsps el javascript
+00:59:14	Pia Edrosa:	y dps js
+00:59:17	Agustín Albano Riveros:	y se lee primero el html
+00:59:17	German Romero:	hola profesor y tutores, perdonen la tardanza estuve intentando con la pagina de coder y no se me actualizaba
+00:59:44	Matias Boettner:	a miBoton.onclick le puedo pasar una function ya existente?
+00:59:46	Jimmy Navarrete:	se ejecuta tipo cascada
+01:00:00	[tutor]-Marcelo Furlong:	Replying to "hola profesor y tuto..."
+
+hola German no hay problema , estamos viendo ejemplos de eventos en estos momentos
+01:00:18	Melani Belen Morán:	muy practico
+01:00:19	Ignacio Aladro:	Si profe
+01:00:21	Pia Edrosa:	si profe
+01:00:32	german pereyra:	Sisis se entendió
+01:01:04	Juan Manuel Torres:	Reacted to "xddd.jpeg" with ❤️
+01:01:12	[tutor]-Marcelo Furlong:	Reacted to "xddd.jpeg" with ❤️
+01:01:13	Matias Boettner:	()
+01:02:04	Matias Boettner:	perfecto
+01:02:06	Matias Boettner:	gracias
+01:02:08	german pereyra:	Me parece más práctico con la función flecha
+01:02:55	[tutor]-Marcelo Furlong:	método Addevent = no se pone paréntesis en la funciónmétodo arrow = se pone paréntesis en la función
+01:03:11	Matias Boettner:	y llamarla en donde quieras
+01:03:12	Matias Boettner:	claro
+01:03:27	german pereyra:	Perfecto, re claro
+01:05:24	Matias Olivera:	Que tal con pantallas tactiles
+01:05:43	[Tutor]Juan Martin Haag:	hay eventos propios para enventos touch
+01:06:08	[tutor]-Marcelo Furlong:	https://developer.mozilla.org/es/docs/Web/Events
+01:06:08	Matias Olivera:	Reacted to "hay eventos propios ..." with 👍
+01:06:31	[tutor]-Marcelo Furlong:	les dejo una lista de mdn como para darse una idea de la cantidad que podemos utilizar
+01:06:41	Cristina Del Valle Rios:	Reacted to "https://developer.mo..." with ❤️
+01:07:00	Jimmy Navarrete:	como un hover
+01:07:18	Agustín Albano Riveros:	igual eso es de style pero seguro nosotros podemos hacer algo mucho mas importante que cambiarle el color
+01:08:16	Agustín Albano Riveros:	aaaaaaaaaaaaaaaaa
+01:10:50	German Romero:	Reacted to "xddd.jpeg" with ❤️
+01:11:30	Matias Boettner:	Reacted to "xddd.jpeg" with ❤️
+01:11:40	Angelina Gonzalez:	Reacted to "xddd.jpeg" with 😂
+01:11:44	Pia Edrosa:	clarisimo profe
+01:15:49	Pia Edrosa:	la condición inicial es vacia siempre
+01:15:57	Pia Edrosa:	o si ahora cambio tb tira que cambio algo?
+01:16:20	Islebi Pinto Godoy:	Y si es correcto lo que se ingresó con la validación del campo el input podría cambiar de color verde como para validarlo o no?
+01:16:32	Matias Boettner:	si le sacas de vuelta el click con el mismo valor q pusiste tambien te tira el log?
+01:16:35	Pia Edrosa:	ahora pongo otra cosa
+01:16:36	[Tutor]Juan Martin Haag:	Replying to "Y si es correcto lo ..."
+
+Siii, podrias hacer eso
+01:17:03	Matias Boettner:	a eso me referia
+01:17:06	Matias Boettner:	entrar salir entrar salir
+01:17:11	Matias Boettner:	con el mismo valor
+01:19:06	Pia Edrosa:	si yo ahora cambio hola mundo
+01:19:10	Pia Edrosa:	y pongo otro valor
+01:19:11	leon comolli:	algo
+01:19:14	Pia Edrosa:	se ejecuta de nuevo?
+01:20:18	Gilary Naranjo:	¡Buenas noches! Disculpen la demora
+01:20:21	Pia Edrosa:	aaaaaah es siempre con respecto a mi condición de base
+01:20:25	Matias Boettner:	si
+01:20:28	[Tutor]Juan Martin Haag:	Reacted to "¡Buenas noches! Disc..." with 👋
+01:20:29	Pia Edrosa:	si perfecto profe
+01:20:37	Pia Edrosa:	claro
+01:21:58	Diego Delachaux:	se ejecuta con cada caracter
+01:22:12	Pia Edrosa:	es el stringlenght jajajajaaj
+01:22:19	Islebi Pinto Godoy:	Ese evento usan en ig o WhatsApp para mostrarle a la otra persona que están respondiendo
+01:22:29	Islebi Pinto Godoy:	?
+01:22:44	Matias Boettner:	Replying to "Ese evento usan en i..."
+
+claaaaaaro mira como la ve el tipo
+01:22:55	Angelina Gonzalez:	Replying to "Ese evento usan en i..."
+
+en ig te avisa que están escribiendo?? askjdhaskjd
+01:22:59	Angelina Gonzalez:	Replying to "Ese evento usan en i..."
+
+recién me entero
+01:23:01	Matias Boettner:	Replying to "Ese evento usan en i..."
+
+si
+01:23:01	leon comolli:	Replying to "Ese evento usan en i..."
+
+si
+01:23:04	Agustín Albano Riveros:	Replying to "Ese evento usan en i..."
+
+sip
+01:23:06	Islebi Pinto Godoy:	Si con los tres puntos
+01:23:07	leon comolli:	Replying to "Ese evento usan en i..."
+
+y cuando estas adentro del chat tambien
+01:23:08	leon comolli:	Replying to "Ese evento usan en i..."
+
+jaja
+01:23:19	Angelina Gonzalez:	Replying to "Ese evento usan en i..."
+
+@leon comolli keeee
+01:23:27	Angelina Gonzalez:	Replying to "Ese evento usan en i..."
+
+que poco uso ig jajajja
+01:23:42	leon comolli:	Replying to "Ese evento usan en i..."
+
+sisi, pone en linea dentro del chat
+01:23:50	leon comolli:	Replying to "Ese evento usan en i..."
+
+te re manda al frente
+01:23:53	Agustín Albano Riveros:	Replying to "Ese evento usan en i..."
+
+JAJA
+01:24:04	Matias Boettner:	todo esto seria onclick onchange y asi?
+01:24:09	Angelina Gonzalez:	Replying to "Ese evento usan en i..."
+
+buen dato a tener en cuenta jajajaja
+01:24:26	Matias Boettner:	para usarlos con On
+01:24:30	Matias Boettner:	los tipos de eventos
+01:25:20	Matias Boettner:	joya
+01:27:02	Pia Edrosa:	podemos comentar que el type en HTML sea submit porfa?
+01:28:05	Johans Sanzana Pulgar:	se puede mesclar los eventos
+01:28:44	Matias Boettner:	sobre el form
+01:28:45	Matias Boettner:	?
+01:29:25	Felipe Soto:	mi internet hoy esta pesima
+01:29:31	Felipe Soto:	por si acaso
+01:29:39	Felipe Soto:	me caigo a cada rato
+01:30:05	[tutor]-Marcelo Furlong:	Replying to "me caigo a cada rato"
+
+no te hagas problema Felipe lo vamos a tener en cuenta recorda que esta la grabación si se te complica seguir la clase y sino consultanos via chat
+01:30:25	Pia Edrosa:	perfecto. se hace sobre el formulario y el botón es de tipo submit. podemos comentarlo porfa?
+01:30:57	Matias Boettner:	un return false?
+01:31:10	Pia Edrosa:	en el codigo
+01:31:13	Agustín Albano Riveros:	//
+01:31:13	Pia Edrosa:	//
+01:31:22	Pia Edrosa:	no no agregar el comentario
+01:31:33	Pia Edrosa:	para que quede a modo recordatorio
+01:31:39	Agustín Albano Riveros:	aah
+01:31:41	Pia Edrosa:	esoooooooo
+01:31:42	[tutor]-Marcelo Furlong:	de comentar en el código
+01:31:43	Pia Edrosa:	gracias
+01:31:48	Pia Edrosa:	okok
+01:31:50	Pia Edrosa:	GRACIAS
+01:31:58	Agustín Albano Riveros:	:)
+01:32:21	[Tutor]Juan Martin Haag:	https://developer.mozilla.org/en-US/docs/Web/Events#event_listing
+01:32:55	Agustín Albano Riveros:	15min
+01:33:05	Agustín Albano Riveros:	🙃
+01:33:16	Agustín Albano Riveros:	😖
+01:45:32	Alejo Dedominicci:	Replying to "tengo ganas d seguir..."
+
+ya salio
+01:45:39	Alejo Dedominicci:	Replying to "tengo ganas d seguir..."
+
+fallecio el csgo:(
+01:45:39	[Tutor]Juan Martin Haag:	Tamoss
+01:45:41	Angelina Gonzalez:	Replying to "tengo ganas d seguir..."
+
+siii, por eso, ya lo descargue ah
+01:45:44	Agustín Albano Riveros:	toy
+01:45:49	Ignacio Aladro:	Estamos
+01:45:56	Agustín Albano Riveros:	Replying to "tengo ganas d seguir..."
+
+ya lo estoy probando
+01:46:07	Angelina Gonzalez:	Replying to "tengo ganas d seguir..."
+
+preesta atención que después no entendes >:l
+01:46:37	Matias Boettner:	no
+01:48:57	Matias Boettner:	con el value?
+01:50:55	Geronimo Testoni:	Reacted to "{32F9BFA8-BDB3-48CE-85AB-E0CA003D1A04}.png" with 😂
+01:56:41	Urbano Molina:	.target
+01:57:04	Jimmy Navarrete:	Iba decir value
+01:58:55	Islebi Pinto Godoy:	Evita que se recargue la página
+01:59:11	Miguel Arcila:	es function o metodo?
+02:00:43	Santiago Curat:	método es una función dentro e un objketo
+02:00:57	Juan Simon Ladino Moreno:	retorna algo?
+02:01:04	Matias Boettner:	un bloque de codigo que realiza algo especifico
+02:01:12	Miguel Arcila:	pero el preventdefault es algo preestablecido ya no?
+02:01:19	Agustín Albano Riveros:	que se puede llamar en cualquier lugar
+02:01:29	german pereyra:	Es reutilizable
+02:03:09	Miguel Arcila:	Si es que pense que habias dicho que el preventdefault era una function y yo dije pero tengo entendido que es un metodo
+02:03:38	Jimmy Navarrete:	😲
+02:03:48	Islebi Pinto Godoy:	sii
+02:03:50	Agustín Albano Riveros:	seeeeeeeeee
+02:03:50	Kadir Suira:	Si
+02:03:53	Francisco Díaz Apablaza:	si me parece bien
+02:03:57	GONZALO ARIN:	siiii
+02:10:01	Agustín Albano Riveros:	let numeroDocumento = document.getElementById("dni)
+02:10:10	Santiago Curat:	value
+02:11:04	GONZALO ARIN:	como lo estas mostrando es mejo r
+02:11:08	GONZALO ARIN:	profe
+02:11:13	Miguel Arcila:	No seria mas facil escuchar el form?
+02:11:22	Agustín Albano Riveros:	como lo esta mostrando usted es mejor
+02:11:27	Agustín Albano Riveros:	eso dice jsajsajs
+02:11:56	Agustin Lorenzo:	profe, porque el addevent esta dos veces
+02:11:59	Agustin Lorenzo:	????
+02:12:06	GONZALO ARIN:	perdón, estoy con el celu y escribí mal, sisi que es mas claro de la manera que lo estas mostrando ahora.
+02:12:17	Agustin Lorenzo:	profeee
+02:12:20	Agustin Lorenzo:	porfa
+02:13:25	Miguel Arcila:	yo creo que lo mas facil es escuchar el form asi nos ahorramos todo y si colocamos mas campos no tendriamos que hacer ese re proceso
+02:14:02	[Tutor]Juan Martin Haag:	Replying to "yo creo que lo mas f..."
+
+Si es una buena forma esa miguel!
+02:16:42	Miguel Arcila:	pero pasaria lo mismo en ambos casos no? ya que en caso tal no se escucharia
+02:17:34	Juan José Medina:	Como funcionaba la condición esa del if?
+02:19:18	Angelina Gonzalez:	creo que si
+02:19:39	Matias Boettner:	aa si ya me acuerdo
+02:20:38	Agustín Albano Riveros:	contenedor?
+02:20:48	Islebi Pinto Godoy:	validar
+02:20:52	Agustín Albano Riveros:	aa los errores
+02:21:23	Jimmy Navarrete:	Delen un top 10 a Agustín
+02:21:53	Jimmy Navarrete:	Reacted to aa los errores with "❤️"
+02:22:06	Agustín Albano Riveros:	xd
+02:22:18	Matias Boettner:	un appendchild
+02:22:22	Matias Boettner:	ah nada que ver
+02:25:11	Islebi Pinto Godoy:	Y se puede validar antes de presionar?
+02:26:47	Nahuel Paredes:	estuve en la clase del lunes y estoy muy perdido 😭
+02:29:30	Dariana Barrientos:	Yo ya me tengo que retirar, muchas gracias profe y tutores, buenas nochess
+02:29:38	[Tutor]Juan Martin Haag:	Replying to "Yo ya me tengo que r..."
+
+Nos vemos!!
+02:31:08	Agustín Albano Riveros:	reset
+02:33:09	Francisco Díaz Apablaza:	mi mente esta en la matrix kjsksjd
+02:33:13	[Tutor]Juan Martin Haag:	Reacted to "mi mente esta en la ..." with 😁
+02:33:17	Angelina Gonzalez:	clap clap jajaja llego lo chido, muy bien explicado
+02:33:17	Islebi Pinto Godoy:	Aun no hacemos para que quede en la tabla de pacientes registrados, verdad?
+02:33:33	Alejo Aranguren:	🤯
+02:33:49	Miguel Arcila:	profe tus PDF de practicas son todo lo que esta bien en esta vida
+02:33:50	Agustín Albano Riveros:	no porq el objeto aun no lo guardamos
+02:33:56	Jimmy Navarrete:	Agustín se merece un cupón coder de descuento 🥳😌
+02:34:15	Agustín Albano Riveros:	ya lo tengo del top pasado😎
+02:34:15	Jimmy Navarrete:	Reacted to no porq el objeto au... with "❤️"
+02:34:21	Angelina Gonzalez:	Replying to "ya lo tengo del top ..."
+
+opi
+02:34:32	Federico Olariaga:	y si queremos guardar esos datos ya seria de backend?
+02:34:35	Jimmy Navarrete:	Reacted to ya lo tengo del top ... with "👏"
+02:34:42	Agustín Albano Riveros:	si pero en la lista d pacientes
+02:34:55	Agustín Albano Riveros:	claro
+02:35:03	Angelina Gonzalez:	Bueno, me retiro! Buenas noches
+02:35:10	Agustín Albano Riveros:	en una base de datos
+02:35:13	Angelina Gonzalez:	buen finde para todos
+02:35:13	[Tutor]Juan Martin Haag:	Nos vemos gente!!
+02:35:17	[Tutor]Juan Martin Haag:	Reacted to "buen finde para todo..." with ❤️
+02:35:25	Agustín Albano Riveros:	bye
+02:35:27	Ignacio Aladro:	Muy buena clase hoy profe, gracias!
+02:35:32	Agustín Albano Riveros:	lo hizo super rapido
+02:35:38	Agustín Albano Riveros:	estuvo genial
+02:35:45	Agustín Albano Riveros:	NONO digo de que lo hizo en tiempo record
+02:35:51	Agustín Albano Riveros:	lo estoy felicitando
+02:35:53	Agustín Albano Riveros:	no criticando profe
+02:35:59	Jimmy Navarrete:	Con el latigo
+02:36:01	Agustín Albano Riveros:	❤️
+02:36:07	Agustín Albano Riveros:	Replying to "Con el latigo"
+
+ojala JKAJKA
+02:36:25	Pablo Buzas:	Buenísimo!
+02:36:36	Agustín Albano Riveros:	muy bueno
+02:36:39	Agustín Albano Riveros:	❤️
+02:36:43	Alejo Aranguren:	buenas nochesss
+02:36:47	Amneris Calle:	Buenas noches y gracias
+02:36:49	Juan Simon Ladino Moreno:	gracias
+02:36:57	german pereyra:	Gracias, buenas nochesss
+02:37:00	leon comolli:	buenas noches profe !!
+02:37:04	Federico Olariaga:	buenas noches
+02:37:05	german pereyra:	Buen finde!
+02:37:11	Pablo Buzas:	Buenas noches
+02:37:12	Alfredo Moya:	Chao profe

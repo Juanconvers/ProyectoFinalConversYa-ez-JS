@@ -1,0 +1,98 @@
+/* IMPORTE DE PARTIALS */
+
+@import "_mixins.scss";
+
+/* FUENTES */
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../assets/fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+/* VARIABLES */
+
+$estilo-marcos: (
+    marco-A: 10px,
+    );
+
+/* TÍTULO DE TODAS LA PÁGINAS */
+.title_h1 {
+    background-color: rgb(122, 122, 122);
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+    .h1 {
+        margin: 0%;
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+/* TEXTOS SECUNDARIOS */
+.textbox {
+    margin: map-get($estilo-marcos, marco-A);
+    height: auto;
+    padding: 15px 50px;
+    @include flexible (flex, column nowrap, unset, unset, center, center);
+    .textbox__title_h2 {
+        .h2 {
+            font-weight: 700;
+        }
+    }
+    .textbox__paragraph {
+        padding: map-get($estilo-marcos, marco-A);
+        margin: 10px 70px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+    }
+    .textbox__location {
+        padding: map-get($estilo-marcos, marco-A);
+        margin: map-get($estilo-marcos, marco-A);
+        @include flexible (flex, row nowrap, space-around, center, unset, unset);
+        .textbox__location--map {
+            padding: map-get($estilo-marcos, marco-A);
+            margin: map-get($estilo-marcos, marco-A);
+        }
+        .textbox__paragraph {
+            @extent .textbox__location--map;
+            text-align: start;
+            font-size: 20px;
+        }
+    }
+
+    .textbox__policy {
+        margin: map-get($estilo-marcos, marco-A);
+        @include flexible (flex, row wrap, center, unset, unset, unset);
+        
+        .textbox__policy--box {
+            width: 350px;
+            .h3 {
+                font-size: 25px;
+            }
+            .textbox__paragraph {
+                padding: map-get($estilo-marcos, marco-A);
+                margin: map-get($estilo-marcos, marco-A);
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+    }
+    .list-group{
+        .list-group-item{
+            .h4{
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+    }
+    
+}
+

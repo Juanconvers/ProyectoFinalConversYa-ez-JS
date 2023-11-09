@@ -1,0 +1,9 @@
+
+@mixin flexible ($dis, $dir, $just, $alg-c, $alg-it, $text-al){
+    display: $dis;
+    flex-flow: $dir;
+    justify-content: $just;
+    align-content: $alg-c;
+    align-items: $alg-it;
+    text-align: $text-al;
+}

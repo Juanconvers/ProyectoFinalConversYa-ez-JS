@@ -1,0 +1,71 @@
+/* IMPORTE DE PARTIALS */
+
+@import "_mixins.scss";
+
+/* VISTA PARA MOVIL */
+@media (max-width: 480px) {
+    .container-fluid {
+
+        header {
+            
+            .nav {
+                padding: 10px;
+                @include flexible (flex, row wrap, space-evenly, unset, center, center);
+ 
+                .nav-item{
+                    .navigation__link {
+                        margin: 4px;
+                        font-size: 16px;        
+                    }
+                }          
+            }
+        }
+
+        .title_h1 {
+            .h1 {
+                font-size: 20px;
+            }
+        }
+
+        .banner {
+            @include flexible (flex, row wrap, column, center, unset, unset);
+            .banner__image {
+                width: 380px;
+            }
+        }
+
+        .textbox {
+            margin: 15px;
+            padding: 5px;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .textbox__paragraph {
+                font-size: 16px;
+                margin: 10px;
+            }
+
+            .textbox__policy {
+                padding: 15px;
+                flex-direction: column;
+
+                .h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+    
+        .footer {
+            .footer__info {
+                padding-top: 10px;
+            }
+
+            .footer__link,
+            .footer__paragraph {
+                line-height: 25px;
+            }
+        }
+    }
+}
