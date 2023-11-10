@@ -1,7 +1,5 @@
 
-
 let arraysesionanterior = [];
-
 
 let arrayTraidoDelStorage = JSON.parse(sessionStorage.getItem("arrayEnSessionStorage"));
     if(arrayTraidoDelStorage !== null){
@@ -63,8 +61,6 @@ formulario.addEventListener("submit", function(e){
       llenartabladecasos();
       formulario.reset();
     
-
-      // calculoestadistica();
     })
 
 
@@ -81,42 +77,9 @@ estadisticas.addEventListener("click", () => {
       calculoestadistica();
   }, 3 * 1000)
 
-  // calculoestadistica();
+ 
   // promedioavaluos();
   
 
 })
-
-      // // Formación del objeto que hará parte del array de casos (la idea es contar los casos ingresados).
-
-//   caso = {
-//     nombreCaso,
-//     cuantia,
-//     cuantiaCaso
-//     }
-  
-//   // // Método que agrega el nuevo objeto al array.
-  
-//   listaCasos.push(caso);
-  
-//   // Se imprime el array modificado en la consola para probar el funcionamiento.
-  
-//  console.log(listaCasos);
-  
-  // Filtrado del array final para determinar la cantidad de casos por cuantía
-  
-  // const casosMinimaCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Mínima Cuantía")
-  // const casosMenorCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Menor Cuantía")
-  // const casosMayorCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Mayor Cuantía")
-  
-  //   //         *** SECCIÓN 5: IMPRESIÓN DE LA CLASIFICACIÓN ANTERIOR CREANDO EN EL DOM UN DIV QUE LLEVA LA CUENTA  ***
-  
-  //   let tablaEstadistica = document.getElementById("estadistica");
-  //   let cantidadCasos = document.createElement("div");
-  //   cantidadCasos.classList.add("text__headline");
-  //   cantidadCasos.innerHTML = "<h3>CANTIDAD DE CASOS REGISTRADOS</h3>";
-  //   cantidadCasos.innerHTML += `<p>La cantidad de casos de Mínima cuantía es: ${casosMinimaCuantia.length} </p>`;
-  //   cantidadCasos.innerHTML += `<p>La cantidad de casos de Menor cuantía es: ${casosMenorCuantia.length} </p>`;
-  //   cantidadCasos.innerHTML += `<p>La cantidad de casos de Mayor cuantía es: ${casosMayorCuantia.length} </p>`;
-  //   tablaEstadistica.append(cantidadCasos);
 
