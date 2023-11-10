@@ -1,34 +1,45 @@
 
 //         *** SECCIÓN 1: LOGIN ***
 
-formulario.addEventListener("submit", function(e){
+formulario.addEventListener("submit", function(e) {
     e.preventDefault();
     
     // Se vincula la información digitada en el formulario para ser traida al programa
 
+
     let nombreUsuario = document.getElementById("username").value;
     let contrasegna = document.getElementById("password").value;
 
-    // Se traen el usuario y contraseñas gusrdados en el Local Storage y se transforman con parse
+        // Se crea el objeto que se guarda el usuario y ocntraseña ingresados. 
 
-    const usuarioEnLocalStorage = JSON.parse(localStorage.getItem("usuario"));
-    const contrasegnaEnLocalStorage = JSON.parse(localStorage.getItem("clave"));
+    let usuario = {
+        elusuario: nombreUsuario,
+        lacontrasegna: contrasegna
+        };
+  
+    // Se declara el array donde se guardará el array con la información de usuarios y contraseñas guardadas en el Local Storage. 
 
+    let arrayTraidoDelStorage = new Array(); 
+
+    // Se trae el array del Local Storage por medio de un operador ternario se inquiere si el array que viene tiene o no elementos. 
+    // Si nos los tiene crea un array vacío.
+
+    arrayTraidoDelStorage = JSON.parse(localStorage.getItem("arrayEnLocalStorage"))?  JSON.parse(localStorage.getItem("arrayEnLocalStorage")):[]
+
+    // Condicional que comprueba la coordinancia entre el usuario y contraseña ingresados y los mismos datos del array traído del Local Storage.
+    // Si hay coordinancia el enlace lleva a la página del programa. Si no, aparece mensaje de aviso.
+    if (arrayTraidoDelStorage.some((x) => {
+      return x.elusuario == usuario.elusuario && x.lacontrasegna == usuario.lacontrasegna
+      })){
+        window.location.href = "../index.html";  
+      } else {
+        let resultadoLogin = document.getElementById("resultado"); 
+        resultadoLogin.innerHTML = "<p>Usuario o contraseña incorrectos</p>";
+        }
+    
     // Se limpia el formulario
 
     formulario.reset();
-
-    // Se desarrolla la condicional que compara los input del usuario con los datos traídos del 
-    // Local Storage para permitir el login y dirigir al home
-
-    if (usuarioEnLocalStorage == nombreUsuario && contrasegnaEnLocalStorage == contrasegna) {
-        window.location.href = "../index.html";
-      } else {
-      const resultadoLogin = document.getElementById("resultado"); 
-      console.log(resultadoLogin);
-      resultadoLogin.innerHTML = "<p>Usuario o contraseña incorrectos</p>";
-      resultado.append(resultadoLogin);
-      }
 
  })
 

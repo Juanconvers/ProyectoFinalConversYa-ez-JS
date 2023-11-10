@@ -4,12 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="./assets/images/legal-icon.png">
+	<link rel="shortcut icon" href="./assets/images/fav-icon-legal-iuris-03BLANCO-03.png">
 	<title>Legales.com</title>
-	<meta name="description"
-		content="Servicios legales digitales">
-	<meta name="keywords"
-		content="Servicios legales digitales">
+	<meta name="description" content="Servicios legales digitales">
+	<meta name="keywords" content="Servicios legales digitales">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -22,90 +20,175 @@
 
 <body class="container-fluid">
 
-	<!-- NAVEGADOR MENÚ HAMBURGUESA CON TEMPLATE DE BOOTSTRAP-->	
-	<header class="row"> 
-		<nav class="nav navbar navbar-expand-md navbar-light">		
-			<a href="../index.html"><img class="navigation__link--logo" src="./assets/images/legal-icon.png"
-				alt="logo-legal"></a>					
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
+	<!-- NAVEGADOR MENÚ HAMBURGUESA CON TEMPLATE DE BOOTSTRAP-->
+	<header class="row">
+		<nav class="nav navbar navbar-expand-md navbar-light">
+			<a href="../index.html"><img class="navigation__link--logo" src="./assets/images/logolegaliuris.png"
+					alt="logo-legal"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
-			  <ul class="navbar-nav">
-				<li class="nav-item active">
-				  <a class="nav-link navigation__link" href="./servicios.html">SERVICIOS</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link navigation__link" href="./contacto.html">CONTÁCTENOS</a>
-				</li>
-			  </ul>
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link navigation__link" href="./servicios.html">SERVICIOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link navigation__link" href="./contacto.html">CONTÁCTENOS</a>
+					</li>
+				</ul>
+			</div>
+			<div class="nav-logout">
+				<a href="./pages/login.html">
+					<button class="login__item--button navigation__logout--button" type="submit" id="submit">Cerrar
+						Sesión</button>
+				</a>
+
 			</div>
 		</nav>
-	</header>	  
+	</header>
 	<main>
 		<!-- TÍTULO DE LA PÁGINA -->
-		<div class="row">
+
+		<!-- <div class="row">
 			<div class="title_h1">
 				<h1 class="h1" data-aos="zoom-in">CALCULADORA DE COMPETENCIA JUDICIAL</h1>
 			</div>
-		</div>
-
-		<!-- BANNER/IMAGEN PRINCIPAL DE LA PÁGINA -->
-		<div class="banner">
-			<img class="banner__image" src="./assets/images/banner-legal-business.jpg" alt="imagentienda1">
-		</div>
-
-		<!-- FORMULARIO -->
+			<h4 class="h4">Rta/ Por supuesto. 
+				Servicios Judiciales Digitales
+				Hacemos de la gestión de tu demanda algo más fácil.
+				
+				.</h4>
+		</div> -->
+		
 		<section class="textbox">
-			<div class="textbox__title_h2">
-				<h2 class="h2" data-aos="zoom-in">INGRESE LOS DATOS DE SU PROCESO</h2>
-			</div>
+			<section class="textbox__location">
+				<div class="textbox__location-text">
+					
+					<div class="textbox__title_h2">
+						<h2 class="h2" data-aos="zoom-in">CALCULADORA DE COMPETENCIA JUDICIAL</h2>
+					</div>
+					<p class="textbox__paragraph">Hacemos la gestión de tu demanda más fácil<br>
+						La competencia judicial es saber el tipo de juzgado al que corresponde resolver tu proceso. <br> <br>
+						Allí deberás radicar la demanda correspondiente.<br>
+						Es simple. Llena el formulario y pulsa calcular.<br>
+					</p>
+				</div>
+				<div class="formulario">
+					<form id="formulario" class="form">
+						<div class="form__item">
+							<label for="avaluo">Nombre de tu caso o del predio a reclamar</label><br>
+							<input class="form__input" type="text" id="nombreCaso" name="nombreCaso" required />
+						</div>
+						<div class="form__item">
+							<label for="avaluo">Avalúo catastral del inmueble</label><br>
+							<input class="form__input" type="number" id="avaluo" name="avaluo"
+								placeholder=" Valor en pesos colombianos" required />
+						</div>
+						<div class="form__item">
+							<label for="porcentaje">Porcentaje que ocupa el predio</label><br>
+							<input class="form__input" type="number" id="porcentaje" name="porcentaje"
+								placeholder=" Escribe un valor porcentual (1 a 100) " required />
+						</div>
+						<div class="form__item"><br>
+							<label class="form__text" for="calcular"></label>
+							<input class="form__input--submit" type="submit" id="calcular" name="calcular"
+								value="Calcular"></input>
+						</div>
+					</form>
+				</div>
+			</section>
 		</section>
 
-		<form id="formulario" class="form">
-			<div class="form__item">
-				<label for="avaluo">¿Cuál es nombre del predio a reclamar? <br> O indique el nombre con que se conoce su caso</label><br>
-				<input class="form__input" type="text" id="nombreCaso" name="nombreCaso" required/>
+		<section>
+			
+			<div class="textbox__table">
+				<table id="tablaCasos" class="table table__cases">
+					<div class="text__headline">
+						<h3>CASOS INGRESADOS Y CALCULADOS</h3>
+					</div>
+					<thead>
+						<tr>
+							<th>Caso</th>
+							<th>Avalúo</th>
+							<th>Porcentaje ocupado</th>
+							<th>Valor de la cuantía</th>
+							<th>Cuantía</th>
+							<th>Competencia</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+					
+				<div class="text__headline">
+					<h3>ESTADÍSTICAS</h3>
+				</div>
+				
+				<div class="table__button-set">
+					<div>
+						<input class="table__button table__button--go" type="submit" id="calcular" name="calcular"
+						value="Procesar información"></input>
+					</div>
+					<div>
+						<input class="table__button table__button--clear" type="submit" id="calcular" name="calcular"
+						value="Limpiar tabla"></input>
+					</div>
+				</div>	
+
+				<table id="tablaEstadisticas" class="table table__statistic">
+					
+					
+					<thead>
+						<tr>
+							<th scope="col"></th>
+							<th scope="col">Resultado</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Número total de casos</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Total casos Mínima Cuantía</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Porcentaje</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Total casos Mínima Cuantía</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Porcentaje</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Total casos Mayor Cuantía</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Porcentaje</th>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Promedio total de avalúos</th>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
-			<div class="form__item">
-				<label for="avaluo">¿Cuál es avalúo catastral del inmueble que pretende?</label><br>
-				<input class="form__input" type="number" id="avaluo" name="avaluo" placeholder="Valor en pesos colombianos" required/>
-			</div>
-			<div class="form__item">
-				<label for="porcentaje">¿Cuál es el porcentaje que ocupa el predio?</label><br>
-				<input class="form__input" type="number" id="porcentaje" name="porcentaje" placeholder="Escriba valor de 1 a 100" required/>
-			</div>
-			<div class="form__item"><br>
-				<label class="form__text" for="calcular"></label>
-				<input class="form__input--submit" type="submit" id="calcular" name="calcular" value="Registrar"></input>
-			</div>
-		</form>
+
+		</section>
+
+		
+		
 	</main>
 
-		<!-- TABLA DE CASOS Y SUS CÁLCULOS} -->
-
-	<table id="tablaCasos" class="table">
-		<div class="text__headline">
-			<h3>CASOS INGRESADOS Y CALCULADOS</h3>
-		</div>
-		<thead>
-			<tr>
-				<th>Caso</th>
-				<th>Avalúo</th>
-				<th>Porcentaje ocupado</th>
-				<th>Valor de la cuantía</th>
-				<th>Cuantía</th>
-				<th>Competencia</th>
-			</tr>
-		</thead>
-	</table>
-
-	<section id="estadistica">
-
-	</section>
-
-	<!-- PIE DE PÁGINA -->
 	<footer class="row">
 		<div id="footer">
 			<div class="footer__info">
@@ -124,34 +207,35 @@
 			</div>
 			<div class="footer__info">
 				<p class="footer__headline">REDES SOCIALES</p>
-                <section class="footer__info--socialmedia">
-                    <div class="footer__link--socialmedia">
-                        <a href="https://es-la.facebook.com/" target="_blank">
-                        <img src="./assets/images/ICON-facebook-PNG-01.png" class="footer__link--icon" alt="facebook-icon"></a></li><br>
-                    </div>
-                    <div class="footer__link--socialmedia">
-                        <a href="https://www.instagram.com/" target="_blank">
-                        <img src="./assets/images/ICON-instagram-PNG-01.png" class="footer__link--icon" alt="instagram-icon"></a></li><br>
-                    </div>
-                    <div class="footer__link--socialmedia">
-                        <a href="https://web.whatsapp.com/" target="_blank">
-                        <img src="./assets/images/ICON-whatsap-PNG-01.png" class="footer__link--icon" alt="whatsapp-icon"></a></li><br>
-                    </div> 
-                </section>
+				<section class="footer__info--socialmedia">
+					<div class="footer__link--socialmedia">
+						<a href="https://es-la.facebook.com/" target="_blank">
+							<img src="./assets/images/ICON-facebook-PNG-01.png" class="footer__link--icon"
+								alt="facebook-icon"></a></li><br>
+					</div>
+					<div class="footer__link--socialmedia">
+						<a href="https://www.instagram.com/" target="_blank">
+							<img src="./assets/images/ICON-instagram-PNG-01.png" class="footer__link--icon"
+								alt="instagram-icon"></a></li><br>
+					</div>
+					<div class="footer__link--socialmedia">
+						<a href="https://web.whatsapp.com/" target="_blank">
+							<img src="./assets/images/ICON-whatsap-PNG-01.png" class="footer__link--icon"
+								alt="whatsapp-icon"></a></li><br>
+					</div>
+				</section>
 				<p class="footer__paragraph">Legal Iuris S.A.S. marca registrada <br>
 					Todos los derechos reservados</p>
 			</div>
 	</footer>
 
-    <!-- SCRIPTS -->
-    <script src="./scripts/main.js"></script>
-    <script>
-      AOS.init();
-    </script> 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+	<!-- SCRIPTS -->
+	<script src="./scripts/main.js"></script>
+	<script src="./scripts/tools.js"></script>
+	<script> AOS.init();</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

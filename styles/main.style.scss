@@ -11,9 +11,11 @@
 
 .container-fluid {
     font-family: 'montserrat';
-    color: #000000;
+    color: #ffffff;
     overflow: auto;
     margin: 0;
+    background-color: rgb(49, 50, 99);
+    // background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(77, 77, 77) 100%);
 }
 
 
@@ -24,26 +26,26 @@
 header {
 
     .nav {
-        background: rgb(255, 255, 255);
-        background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(77, 77, 77) 100%);
+        
         width: 100%;
         padding: 10px 30px;
         overflow: auto;
         
         .navigation__link--logo {
-            width: 150px;
+            width: 450px;
             padding: 0 30px;
+            outline: none;
         }
 
         .navigation__link--logo:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
 
         .navigation__link {
             margin: 15px;
             font-size: 16px;
             font-weight: 700;
-            color: #000000;
+            color: #ffffff;
             text-decoration-line: none;
         }
 
@@ -51,12 +53,18 @@ header {
             color: rgb(170, 170, 170);
             
         }
-        .nav-cart{
-            .navigation__cart--button{
-                width: 115px;
+        .nav-logout{
+            .navigation__logout--button{
+                font-weight: 700;
+                background-color: #c29534;
+                width: 180px;
+                height: 35px;
                 padding: 0 30px;
+                outline: 0;
+                border: 1px solid #474747;
+                border-radius: 10px;
             }
-            .navigation__cart--button:hover {
+            .navigation__logout--button:hover {
                 transform: scale(1.2);
             }
         }
@@ -210,21 +218,13 @@ header {
 /* TABLA DE CASOS */
 
 .text__headline{
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     h3{
         font-weight: 700;
     }
 }
-.table{
-    text-align: center;
-    padding: 50px;
-    thead{
-        tr{
-            font-size: 20px;
-        }
-    }
-}
+
 
 /* PIÉ DE PÁGINA */
 

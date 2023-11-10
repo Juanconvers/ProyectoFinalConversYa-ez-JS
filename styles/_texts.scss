@@ -51,7 +51,7 @@ $estilo-marcos: (
         margin: 10px 70px;
         font-weight: 400;
         font-size: 20px;
-        color: #000000;
+        color: #ffffff;
     }
     .textbox__location {
         padding: map-get($estilo-marcos, marco-A);
@@ -65,6 +65,11 @@ $estilo-marcos: (
             @extent .textbox__location--map;
             text-align: start;
             font-size: 20px;
+        }
+        .textbox__location-text{
+            flex-direction: column;
+            align-items: center;
+            
         }
     }
 
