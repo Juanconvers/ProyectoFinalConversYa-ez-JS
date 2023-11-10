@@ -1,7 +1,7 @@
 
 
 let arraysesionanterior = [];
-let arraycompleto = [];
+
 
 let arrayTraidoDelStorage = JSON.parse(sessionStorage.getItem("arrayEnSessionStorage"));
     if(arrayTraidoDelStorage !== null){
@@ -36,11 +36,9 @@ formulario.addEventListener("submit", function(e){
 
       if (avaluo !== NaN && porcentaje !== NaN) {
         cuantia = (avaluo * porcentaje) / 100;
-      } else () => 
+      } else () => console.log("No se puede procesar la solicitud desde el principio");
 
-      // REEMPLAZAR - REEMPLAZAR - REEMPLAZAR- -REEMPLAZAR - REEMPLAZAR
-
-        console.log("No se puede procesar la solicitud desde el principio");
+      // REEMPLAZAR - REEMPLAZAR - REEMPLAZAR- -REEMPLAZAR - REEMPLAZAR //
 
       if (cuantia !== NaN) {
         if (cuantia <= 46400000) {
@@ -64,9 +62,32 @@ formulario.addEventListener("submit", function(e){
       agregarCasoAlSistema(nombreCaso,avaluo,porcentaje,cuantia,cuantiaCaso,juzgado)
       llenartabladecasos();
       formulario.reset();
+    
+
+      // calculoestadistica();
+    })
+
+
+const estadisticas = document.getElementById("boton-estadisticas");
+
+estadisticas.addEventListener("click", () => {
+  const esperePopup = document.querySelector(".table__popup");
+  esperePopup.innerHTML = `<p>Por favor espere mientras procesamos su solicitud</p>`;
+  esperePopup.classList.add("text__headline");
+    setTimeout(() => {
+    
+      esperePopup.classList.remove("text__headline");
+      esperePopup.innerHTML = `<p></p>`;
+      calculoestadistica();
+  }, 3 * 1000)
+
+  // calculoestadistica();
+  // promedioavaluos();
   
 
-  // // Formación del objeto que hará parte del array de casos (la idea es contar los casos ingresados).
+})
+
+      // // Formación del objeto que hará parte del array de casos (la idea es contar los casos ingresados).
 
 //   caso = {
 //     nombreCaso,
@@ -84,19 +105,18 @@ formulario.addEventListener("submit", function(e){
   
   // Filtrado del array final para determinar la cantidad de casos por cuantía
   
-  const casosMinimaCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Mínima Cuantía")
-  const casosMenorCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Menor Cuantía")
-  const casosMayorCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Mayor Cuantía")
+  // const casosMinimaCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Mínima Cuantía")
+  // const casosMenorCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Menor Cuantía")
+  // const casosMayorCuantia = arraycompleto.filter(x => x.cuantiaCaso === "Mayor Cuantía")
   
-    //         *** SECCIÓN 5: IMPRESIÓN DE LA CLASIFICACIÓN ANTERIOR CREANDO EN EL DOM UN DIV QUE LLEVA LA CUENTA  ***
+  //   //         *** SECCIÓN 5: IMPRESIÓN DE LA CLASIFICACIÓN ANTERIOR CREANDO EN EL DOM UN DIV QUE LLEVA LA CUENTA  ***
   
-    let tablaEstadistica = document.getElementById("estadistica");
-    let cantidadCasos = document.createElement("div");
-    cantidadCasos.classList.add("text__headline");
-    cantidadCasos.innerHTML = "<h3>CANTIDAD DE CASOS REGISTRADOS</h3>";
-    cantidadCasos.innerHTML += `<p>La cantidad de casos de Mínima cuantía es: ${casosMinimaCuantia.length} </p>`;
-    cantidadCasos.innerHTML += `<p>La cantidad de casos de Menor cuantía es: ${casosMenorCuantia.length} </p>`;
-    cantidadCasos.innerHTML += `<p>La cantidad de casos de Mayor cuantía es: ${casosMayorCuantia.length} </p>`;
-    tablaEstadistica.append(cantidadCasos);
+  //   let tablaEstadistica = document.getElementById("estadistica");
+  //   let cantidadCasos = document.createElement("div");
+  //   cantidadCasos.classList.add("text__headline");
+  //   cantidadCasos.innerHTML = "<h3>CANTIDAD DE CASOS REGISTRADOS</h3>";
+  //   cantidadCasos.innerHTML += `<p>La cantidad de casos de Mínima cuantía es: ${casosMinimaCuantia.length} </p>`;
+  //   cantidadCasos.innerHTML += `<p>La cantidad de casos de Menor cuantía es: ${casosMenorCuantia.length} </p>`;
+  //   cantidadCasos.innerHTML += `<p>La cantidad de casos de Mayor cuantía es: ${casosMayorCuantia.length} </p>`;
+  //   tablaEstadistica.append(cantidadCasos);
 
-  })

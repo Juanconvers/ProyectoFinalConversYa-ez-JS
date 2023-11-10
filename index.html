@@ -93,8 +93,7 @@
 						</div>
 						<div class="form__item"><br>
 							<label class="form__text" for="calcular"></label>
-							<input class="form__input--submit" type="submit" id="calcular" name="calcular"
-								value="Calcular"></input>
+							<input class="form__input--submit" type="submit" id="calcular" name="calcular" value="Calcular"></input>
 						</div>
 					</form>
 				</div>
@@ -127,18 +126,16 @@
 				
 				<div class="table__button-set">
 					<div>
-						<input class="table__button table__button--go" type="submit" id="calcular" name="calcular"
-						value="Procesar información"></input>
+						<button  id="boton-estadisticas" class="table__button table__button--go" type="button" name="procesar">Procesar información</button>
 					</div>
 					<div>
-						<input class="table__button table__button--clear" type="submit" id="calcular" name="calcular"
-						value="Limpiar tabla"></input>
+						<button  id="limpiar-tabla" class="table__button table__button--clear" type="button" name="limpiar">Limpiar tabla</button>
 					</div>
 				</div>	
 
-				<table id="tablaEstadisticas" class="table table__statistic">
-					
-					
+				<div class="table__popup"></div>
+
+				<table id="tablaEstadisticas" class="table table__statistic">					
 					<thead>
 						<tr>
 							<th scope="col"></th>
