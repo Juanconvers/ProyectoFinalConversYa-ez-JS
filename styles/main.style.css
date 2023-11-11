@@ -378,8 +378,8 @@
   font-size: 20px;
   background-color: rgb(253, 245, 127);
 }
-.textbox__table .table tbody td {
-  background-color: rgb(253, 245, 127);
+.textbox__table .table tbody .casilla-color {
+  background-color: rgb(253, 248, 173);
 }
 .textbox__table .table__cases {
   text-align: center;

@@ -23,9 +23,12 @@
         }
 
         tbody {
-            td {
-                background-color: rgb(253, 245, 127);
+            .casilla-color{
+                background-color: rgb(253, 248, 173);
             }
+            // td {
+            //     background-color: rgb(253, 245, 127);
+            // }
         }
     }
     .table__cases{

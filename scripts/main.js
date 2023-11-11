@@ -1,4 +1,3 @@
-
 let arraysesionanterior = [];
 
 let arrayTraidoDelStorage = JSON.parse(sessionStorage.getItem("arrayEnSessionStorage"));
@@ -85,7 +84,7 @@ const ESTADISTICAS = document.getElementById("boton-estadisticas");
 
 ESTADISTICAS.addEventListener("click", () => {
   let esperePopup = document.querySelector(".table__popup");
-  esperePopup.innerHTML = `<p>Por favor espere mientras procesamos su solicitud</p>`;
+  esperePopup.innerHTML = `<p>Por favor espera mientras procesamos tu solicitud</p>`;
   esperePopup.classList.add("text__headline");
   esperePopup.classList.add("text__headline--warning");
     setTimeout(() => {
@@ -103,9 +102,9 @@ LIMPIARESTADISTICAS.addEventListener("click", () => {
   limpiartablacalculoestadistica ();
 })
 
-const CERRARCESION = document.getElementById("nav-logout");
+const CERRARSESION = document.getElementById("nav-logout");
 
-CERRARCESION.addEventListener("click", () => {
+CERRARSESION.addEventListener("click", () => {
   window.location.href = "./login.html";
   sessionStorage.removeItem("arrayEnSessionStorage");
 })

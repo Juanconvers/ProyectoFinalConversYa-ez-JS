@@ -43,30 +43,19 @@
 		</nav>
 	</header>
 	<main>
-		<!-- TÍTULO DE LA PÁGINA -->
-
-		<!-- <div class="row">
-			<div class="title_h1">
-				<h1 class="h1" data-aos="zoom-in">CALCULADORA DE COMPETENCIA JUDICIAL</h1>
-			</div>
-			<h4 class="h4">Rta/ Por supuesto. 
-				Servicios Judiciales Digitales
-				Hacemos de la gestión de tu demanda algo más fácil.
-				
-				.</h4>
-		</div> -->
-
 		<section class="textbox">
 			<section class="textbox__location">
 				<div class="textbox__location-text">
 					<div class="textbox__title_h2">
-						<h2 class="h2" data-aos="zoom-in">CALCULADORA DE COMPETENCIA JUDICIAL</h2>
+						<h2 class="h2" data-aos="zoom-in">CALCULADORA DE COMPETENCIA JUDICIAL PARA PROCESOS DE PERTENENCIA</h2>
 					</div>
-					<p class="textbox__paragraph">Hacemos la gestión de tu demanda más fácil<br>
-						La competencia judicial es saber el tipo de juzgado al que corresponde resolver tu proceso. <br>
+					<p class="textbox__paragraph">¡Hacemos la gestión de tu demanda más fácil!<br>
+						Recuerda: La competencia judicial es saber el tipo de juzgado al que le corresponde resolver tu demanda.<br>
 						<br>
-						Allí deberás radicar la demanda correspondiente.<br>
-						Es simple. Llena el formulario y pulsa calcular.<br>
+						1. Ingresa el nombre de su caso para el registro.<br>
+						2. Indica el avalúo catastral (valor económico según el gobierno) del predio que pretendes reclamar.<br>
+						3. Digita el porcentaje del predio que reclamas. Si es todo el predio, indique 100. Si es sólo una parte, refiera el porcentaje correspondiente.<br>
+						4. Repite el proceso cuantas veces quieras. No olvides nuestra sección de Estadística abajo.<br>
 					</p>
 				</div>
 				<div class="formulario">
@@ -139,8 +128,8 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row">Número total de casos</th>
-							<td id="casilla_1"></td>
+							<th class="casilla-color" scope="row">Número total de casos</th>
+							<td class="casilla-color" id="casilla_1"></td>
 						</tr>
 						<tr>
 							<th scope="row">Total casos Mínima Cuantía</th>
@@ -151,12 +140,12 @@
 							<td id="casilla_3"></td>
 						</tr>
 						<tr>
-							<th scope="row">Total casos Mínima Cuantía</th>
-							<td id="casilla_4"></td>
+							<th class="casilla-color" scope="row">Total casos Mínima Cuantía</th>
+							<td class="casilla-color" id="casilla_4"></td>
 						</tr>
 						<tr>
-							<th scope="row">Porcentaje</th>
-							<td id="casilla_5"></td>
+							<th class="casilla-color" scope="row">Porcentaje</th>
+							<td class="casilla-color" id="casilla_5"></td>
 						</tr>
 						<tr>
 							<th scope="row">Total casos Mayor Cuantía</th>
@@ -165,10 +154,6 @@
 						<tr>
 							<th scope="row">Porcentaje</th>
 							<td id="casilla_7"></td>
-						</tr>
-						<tr>
-							<th scope="row">Promedio total de avalúos</th>
-							<td id="casilla_8"></td>
 						</tr>
 					</tbody>
 				</table>
@@ -253,7 +238,7 @@
 	</footer>
 
 	<script src="./scripts/main.js"></script>
-	<script src="./scripts/tools.js"></script>
+	<script src="./scripts/main-functions.js"></script>
 	<script src="./scripts/main-comments.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 	<script> AOS.init();</script>

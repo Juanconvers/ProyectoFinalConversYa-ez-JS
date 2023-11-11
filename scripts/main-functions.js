@@ -47,7 +47,7 @@ function llenartablacalculoestadistica (){
 
       let porcentajeMinimaCuantia = (casosMinimaCuantia.length * 100) / arraycompleto.length;
       let casilla3 = document.querySelector("#casilla_3");
-      casilla3.textContent = `${porcentajeMinimaCuantia} %`;
+      casilla3.textContent = `${Math.round(porcentajeMinimaCuantia)} %`;
 
       let casosMenorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Menor Cuantía")
       let casilla4 = document.querySelector("#casilla_4");
@@ -55,7 +55,7 @@ function llenartablacalculoestadistica (){
 
       let porcentajeMenorCuantia = (casosMenorCuantia.length * 100) / arraycompleto.length;
       let casilla5 = document.querySelector("#casilla_5");
-      casilla5.textContent = `${porcentajeMenorCuantia} %`;
+      casilla5.textContent = `${Math.round(porcentajeMenorCuantia)} %`;
       
       let casosMayorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Mayor Cuantía")
       let casilla6 = document.querySelector("#casilla_6");
@@ -63,59 +63,8 @@ function llenartablacalculoestadistica (){
 
       let porcentajeMayorCuantia = (casosMayorCuantia.length * 100) / arraycompleto.length;
       let casilla7 = document.querySelector("#casilla_7");
-      casilla7.textContent = `${porcentajeMayorCuantia} %`;
-
-      // promedio
-
-      let casilla8 = document.querySelector("#casilla_8");
-      casilla8.textContent = arraycompleto.length;
+      casilla7.textContent = `${Math.round(porcentajeMayorCuantia)} %`;
 };
-
-
-
-
-// const promedioavaluos = () => {
- 
-//   const arrayavaluos = arraycompleto.map((x) => x.elavaluo)
-//   if (arrayavaluos.length === 0) {
-//     return 0;
-//   }
-  
-//   let sumaTotal = 0;
-//   arrayavaluos.forEach((numero) => { sumaTotal = sumaTotal + numero });
-//   let elpromedioavaluos = 0;
-//   elpromedioavaluos = sumaTotal / arraycompleto.length; 
-//   console.log(elpromedioavaluos);
-//   return elpromedioavaluos;
-  
-// };
-
-
-
-
-//     let misNumeros = [];
-// let promedio = 0;
-
-// // 1) Permitir al usuario ingresar un valor por un input.
-// const miInput = document.getElementById("numero");
-// const miFormulario = document.getElementById("formulario");
-
-// miFormulario.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   promedio = 0;
-//   const unNumero = parseInt(miInput.value);
-//   if (isNaN(unNumero)) {
-//     return false;
-//   }
-//   // 2) Agregar el número a un array
-//   // [10, 20]
-//   misNumeros.push(unNumero);
-//   console.table(misNumeros);
-//   promedio = calcularPromedio(misNumeros);
-//   // 4) Mostrar el promedio calculado
-//   alert("El promedio de los números es: " + promedio.toString());
-// });
-
 
 function limpiartablacalculoestadistica (){
   
