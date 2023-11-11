@@ -1,4 +1,3 @@
-
 formulario.addEventListener("submit", function(e) {
     e.preventDefault();
     
@@ -22,8 +21,6 @@ formulario.addEventListener("submit", function(e) {
         let resultadoLogin = document.getElementById("resultado"); 
         resultadoLogin.innerHTML = "<p>Usuario o contraseña incorrectos</p>";
         }
-    
     formulario.reset();
-
  })
 

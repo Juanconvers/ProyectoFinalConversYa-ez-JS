@@ -1,9 +1,7 @@
-
 let arraycasosnuevos = [];
 let arraycompleto = arraysesionanterior.concat(arraycasosnuevos);
 
 function agregarCasoAlSistema (nombreCaso,avaluo,porcentaje,cuantia,cuantiaCaso,juzgado){
-
     let caso = {
         elnombre: nombreCaso,
         elavaluo: avaluo,
@@ -12,7 +10,6 @@ function agregarCasoAlSistema (nombreCaso,avaluo,porcentaje,cuantia,cuantiaCaso,
         lacuantiaCaso: cuantiaCaso,
         eljuzgado: juzgado
         };
-  
     arraycasosnuevos.push(caso);
     arraycompleto = arraysesionanterior.concat(arraycasosnuevos);
     sessionStorage.setItem("arrayEnSessionStorage", JSON.stringify(arraycompleto));;
@@ -40,30 +37,33 @@ function llenartabladecasos(){
 } 
 
 function llenartablacalculoestadistica (){
-    const numerototaldecasos = arraycompleto.length;
+    
     let casilla1 = document.querySelector("#casilla_1");
     casilla1.textContent = `${arraycompleto.length} casos`;
    
-      const casosMinimaCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Mínima Cuantía")
+      let casosMinimaCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Mínima Cuantía")
       let casilla2 = document.querySelector("#casilla_2");
       casilla2.textContent = `${casosMinimaCuantia.length} casos`;
 
+      let porcentajeMinimaCuantia = (casosMinimaCuantia.length * 100) / arraycompleto.length;
       let casilla3 = document.querySelector("#casilla_3");
-      casilla3.textContent = arraycompleto.length;
+      casilla3.textContent = `${porcentajeMinimaCuantia} %`;
 
-      const casosMenorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Menor Cuantía")
+      let casosMenorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Menor Cuantía")
       let casilla4 = document.querySelector("#casilla_4");
       casilla4.textContent = `${casosMenorCuantia.length} casos`;
 
+      let porcentajeMenorCuantia = (casosMenorCuantia.length * 100) / arraycompleto.length;
       let casilla5 = document.querySelector("#casilla_5");
-      casilla5.textContent = arraycompleto.length;
+      casilla5.textContent = `${porcentajeMenorCuantia} %`;
       
-      const casosMayorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Mayor Cuantía")
+      let casosMayorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Mayor Cuantía")
       let casilla6 = document.querySelector("#casilla_6");
       casilla6.textContent = `${casosMayorCuantia.length} casos`;
 
+      let porcentajeMayorCuantia = (casosMayorCuantia.length * 100) / arraycompleto.length;
       let casilla7 = document.querySelector("#casilla_7");
-      casilla7.textContent = arraycompleto.length;
+      casilla7.textContent = `${porcentajeMayorCuantia} %`;
 
       // promedio
 

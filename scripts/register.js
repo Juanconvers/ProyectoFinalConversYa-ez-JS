@@ -1,5 +1,3 @@
-
-
 formulario.addEventListener("submit", function(e){
     e.preventDefault();
   
@@ -8,9 +6,7 @@ formulario.addEventListener("submit", function(e){
 
     agregarUsuarioAlSistema (nombreUsuario,contrasegna)
  
-    const resultadoLogin = document.getElementById("resultado"); 
-    resultadoLogin.innerHTML = "<p>Bienvenido, Su usuario y clave han sido registrados</p>";
-    resultado.append("resultadoLogin");
-
+    const RESULTADOLOGIN = document.getElementById("resultado"); 
+    RESULTADOLOGIN.innerHTML = "<p>¡Bienvenido! <br> Tu usuario y clave han sido registrados</p>";
     formulario.reset();
 })

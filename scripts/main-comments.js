@@ -1,4 +1,3 @@
-
 function escribirTarjetas() {
 
     let usuario1 = document.querySelector("#usuario1");

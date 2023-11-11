@@ -24,8 +24,8 @@ let arrayTraidoDelStorage = JSON.parse(sessionStorage.getItem("arrayEnSessionSto
     } else {
   }
 
-const formulario = document.getElementById("formulario");
-formulario.addEventListener("submit", function(e){
+const FORMULARIO = document.getElementById("formulario");
+FORMULARIO.addEventListener("submit", function(e){
   e.preventDefault();
 
   nombreCaso = document.getElementById("nombreCaso").value;
@@ -60,7 +60,7 @@ formulario.addEventListener("submit", function(e){
           
         } else {
           Toastify({
-            text: "Sus resultados están listos",
+            text: "No es posible ",
             duration: 3000
             }).showToast();
         }
@@ -81,10 +81,10 @@ formulario.addEventListener("submit", function(e){
         }).showToast(); 
     })
 
-const estadisticas = document.getElementById("boton-estadisticas");
+const ESTADISTICAS = document.getElementById("boton-estadisticas");
 
-estadisticas.addEventListener("click", () => {
-  const esperePopup = document.querySelector(".table__popup");
+ESTADISTICAS.addEventListener("click", () => {
+  let esperePopup = document.querySelector(".table__popup");
   esperePopup.innerHTML = `<p>Por favor espere mientras procesamos su solicitud</p>`;
   esperePopup.classList.add("text__headline");
   esperePopup.classList.add("text__headline--warning");
@@ -97,15 +97,15 @@ estadisticas.addEventListener("click", () => {
   }, 4 * 1000)
 })
 
-const limpiarestadisticas = document.getElementById("limpiar-tabla");
+const LIMPIARESTADISTICAS = document.getElementById("limpiar-tabla");
 
-limpiarestadisticas.addEventListener("click", () => {
+LIMPIARESTADISTICAS.addEventListener("click", () => {
   limpiartablacalculoestadistica ();
 })
 
-const cerrarcesion = document.getElementById("nav-logout");
+const CERRARCESION = document.getElementById("nav-logout");
 
-cerrarcesion.addEventListener("click", () => {
+CERRARCESION.addEventListener("click", () => {
   window.location.href = "./login.html";
   sessionStorage.removeItem("arrayEnSessionStorage");
 })

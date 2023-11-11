@@ -1,28 +1,21 @@
-/* IMPORTE DE PARTIALS */
 
 @import "_mixins.scss";
-
-/* FORMULARIO */
 
 .formulario {
     outline: 0;
     border: 1px solid #ffffff;
     border-radius: 10px;
     background-color: rgb(30, 54, 82); 
-
-
     .form {
         @include flexible (flex, column wrap, center, unset, center, unset);
         justify-content: center;
         align-items: center;
         height: 450px;
         width: 500px;
-
         .form__item {
             padding: 5px;
             font-size: 20px;
             font-weight: 700;
-
             .form__input {
                 height: 38px;
                 width: 400px;
@@ -30,7 +23,6 @@
                 border: 1px solid #474747;
                 border-radius: 10px;
             }
-
             .form__input--submit {
                 font-size: 20px;
                 font-weight: 700;
@@ -51,7 +43,6 @@
         }
     }
 }
-
 
 .text__headline--warning{
     color: #ff002b;

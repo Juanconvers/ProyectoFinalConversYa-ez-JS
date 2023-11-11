@@ -5,7 +5,7 @@
 
 /* IMPORTE DE PARTIALS */
 
-@import "_mixins.scss","_responsive.scss", "_texts.scss", "_buttons-interactive.scss", "_register-login.scss", "_charts.scss";
+@import "_mixins.scss","_responsive.scss", "_texts.scss", "_buttons-interactive.scss", "_register-login.scss", "_charts.scss", "_comment-cards.scss";
 
 /* CONTAINER-FLUID DE BOOTSTRAP */
 
@@ -15,16 +15,9 @@
     overflow: auto;
     margin: 0;
     background-color: rgb(49, 50, 99);
-    // background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(77, 77, 77) 100%);
 }
 
-
-/* ++++ CONTENIDO ++++ */
-
-/* NAVEGADOR */
-
 header {
-
     .nav {  
         width: 100%;
         padding: 10px 30px;
@@ -32,7 +25,6 @@ header {
         .navigation__link--logo {
             width: 450px;
             padding: 0 30px;
-           
         }
         .navigation__link {
             margin: 15px;
@@ -67,16 +59,10 @@ header {
     }
 }
 
-
-
-/* TOAST VERDE DEL HOME */
 .listo{
     background-color: #00a364;
 }
 
-
-
-/* BANNER - IMÁGENES */
 .banner {
     padding: 15px;
     @include flexible (flex, row wrap, center, unset, unset, unset);
@@ -86,25 +72,20 @@ header {
     }
 }
 
-/* PIÉ DE PÁGINA */
-
 #footer {
     background-color: rgb(122, 122, 122);
     color: white;
     padding-bottom: 20px;
     margin-top: 20px;
     @include flexible (flex, row wrap, space-evenly, flex-start, unset, unset);
-
     .footer__info {
         padding-top: 20px;
         text-align: center;
-
         .footer__headline {
             font-weight: 700;
             font-size: 22px;
             margin: 15px;
         }
-
         .footer__link,
         .footer__paragraph {
             text-decoration-line: none;
@@ -114,11 +95,9 @@ header {
             margin: 15px;
             line-height: 35px;
         }
-
         .footer__link:hover {
             color: rgb(63, 63, 63);
-            
-            
+             
         }
         .footer__info--socialmedia{
         display: grid;
@@ -134,6 +113,5 @@ header {
                 }
             }
         }
-
     }
 }

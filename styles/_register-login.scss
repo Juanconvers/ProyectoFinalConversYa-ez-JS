@@ -1,42 +1,40 @@
-/* LOGIN */
-
 .container-login {
-    background: rgb(131, 131, 131);
-    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(77, 77, 77) 100%);
+    background: rgb(49, 50, 99);
     font-family: 'montserrat';
-    color: #000000;
+    color: #ffffff;
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.login{
+
+.login {
     height: 600px;
     width: 800px;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-} 
-.intro__box{
-    padding: 30px;
-    height: 600px;
-    width: 450px;
+}
+
+.intro__box {
+    padding: 5px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    h1{
+    h1 {
         font-weight: 700;
     }
-    .intro__box--alert{
-    font-weight: 700;
-    font-size: 20px;
-    color: #ff002b;
+    .intro__box--alert {
+        font-weight: 700;
+        font-size: 20px;
+        color: #ff002b;
     }
 }
+
 .login__box {
     background: rgb(255, 255, 255);
     width: 300px;
@@ -47,83 +45,108 @@
     flex-direction: column;
     box-shadow: 10px 4px 10px 10px #706f6f;
     border-radius: 20px;
-    img{
+    img {
         height: 100px;
     }
     .login__item {
         padding: 10px;
         margin: 10px;
     }
-    .login__item--input{
+    .login__item--input {
         outline: 0;
         border: 1px solid #ccc;
-        width: 80%; 
+        width: 80%;
     }
-    .login__item--button{
-        
+    .login__item--button {
+
         outline: 0;
         border: 1px solid #474747;
         width: 80%;
         border-radius: 10px;
     }
 }
-/* REGISTER */
+
 
 .container-register {
-    background: rgb(168, 116, 18);
-    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(187, 104, 27) 100%);
+    background: rgb(49, 50, 99);
     font-family: 'montserrat';
-    color: #000000;
+    color: #ffffff;
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-
-.register{
+.register {
     height: 600px;
     width: 800px;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-} 
-
+}
 .register__box {
+    color: #474747;
     background: rgb(255, 255, 255);
-    width: 300px;
+    width: 650px;
     height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 10px 4px 10px 10px #706f6f;
+    box-shadow: 10px 4px 10px 10px rgb(9, 9, 71);
     border-radius: 20px;
-    img{ 
+    img {
         height: 100px;
     }
     .register__item {
         padding: 10px;
-        margin: 10px;
+
     }
-    .register__item--input{
+    .register__item--input {
+        padding: 5px;
         outline: 0;
         border: 1px solid #ccc;
-        width: 80%; 
-    }
-    .register__item--button{
-        
-        outline: 0;
-        border: 1px solid #474747;
         width: 80%;
-        border-radius: 10px;
+        height: 35px;
     }
-    .register__login--button{
-        outline: 0;
-        background-color: #00b44b;
+    .register__item--button {
+        margin: 8px;
+        font-weight: 700;
         border: 1px solid #474747;
+        outline: 0;
         width: 80%;
+        height: 50px;
+        margin: 17px 0px 0px 0px;
         border-radius: 10px;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: rgb(101, 123, 170);
+        cursor: pointer;
+        transition: 800ms ease all;
+    }
+    .register__item--button:hover {
+        background: rgb(80, 95, 131);
+        color: #ffffff;
+    }
+    .register__login--button {
+        margin: 8px;
+        font-weight: 700;
+        border: 1px solid #474747;
+        outline: 0;
+        width: 80%;
+        height: 50px;
+        margin: 17px 0px 0px 0px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #05a396;
+        cursor: pointer;
+        transition: 800ms ease all;
+    }
+    .register__login--button:hover {
+        background: #077c72;
+        color: #ffffff;
     }
 }

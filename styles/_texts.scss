@@ -1,8 +1,4 @@
-/* IMPORTE DE PARTIALS */
-
 @import "_mixins.scss";
-
-/* FUENTES */
 
 @font-face {
     font-family: 'montserrat';
@@ -15,13 +11,10 @@
     font-weight: 400;
 }
 
-/* VARIABLES */
-
 $estilo-marcos: (
     marco-A: 10px,
     );
 
-/* TÍTULO DE TODAS LA PÁGINAS */
 .title_h1 {
     background-color: rgb(122, 122, 122);
     color: white;
@@ -35,7 +28,6 @@ $estilo-marcos: (
     }
 }
 
-/* TEXTOS SECUNDARIOS */
 .textbox {
     margin: map-get($estilo-marcos, marco-A);
     height: auto;
@@ -98,6 +90,5 @@ $estilo-marcos: (
             }
         }
     }
-    
 }
 

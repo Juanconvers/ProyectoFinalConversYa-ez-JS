@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/images/legal-icon.png">
+    <link rel="shortcut icon" href="../assets/images/fav-icon-legal-iuris-03BLANCO-03.png">
     <title>registro/legales.com</title>
     <meta name="description"
 		content="Servicios legales digitales">
@@ -19,28 +19,23 @@
 	<link rel="stylesheet" href="../styles/main.style.css">
 </head>
 <body class="container-register">
-
-	<section class="register">
-    <!-- MENSAJE INTRODUCCIÓN -->
-        <div class="intro__box">
-            <h1 class="h1">REGISTRA TU USUARIO</h1>
-            <h2 class="h2">¿No tienes cuenta de CALCULADORA DE COMPETENCIA JUDICIAL? <br> 
-                Registra tus datos para comenzar</h2>  
-            <div id="resultado" class="intro__box--alert"></div>
-        </div>
-       
-
-    <!--FORMULARIO PARA REGISTRO DE USUARIO -->
-
+    
+    <section>
         <form id="formulario" class="register__box">
-            <img class="register__item" src="../assets/images/user-img.svg" alt="user_img">
-            <label class="register__item" for="username">Usuario</label>
+            <img class="register__item" src="../assets/images/logolegaliurisletrasoscuras.png" alt="logo">
+            <div class="intro__box">
+                <h3 class="h3">CREAR NUEVA CUENTA</h3>
+                <p class="p">Somos líderes en servicios judiciales<br> 
+                    ¿Estás listo para comenzar?</p>  
+                <div id="resultado" class="intro__box--alert"></div>
+            </div>
+            <label class="register__item" for="username">Ingresa un usuario nuevo</label>
             <input class="register__item register__item--input" type="text" id="username" placeholder="Usuario" required>
-            <label class="register__item" for="password">Contraseña</label>
+            <label class="register__item" for="password">Digita tu nueva contraseña</label>
             <input class="register__item register__item--input" type="password" id="password" placeholder="Contraseña" required>
-            <button class="register__item register__item--button" type="submit" id="submit">Registrarse</button>
-            <button class="register__item register__login--button">
-                <a class="nav-link navigation__link" href="./login.html">Iniciar Sesión</a>
+            <button class="register__item--button" type="submit" id="submit">Registrarse</button>
+            <button class="register__login--button">
+                <a class="nav-link navigation__link" href="./login.html">Tengo una cuenta</a>
             </button>
         </form>
     </section>

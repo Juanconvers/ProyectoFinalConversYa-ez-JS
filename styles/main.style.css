@@ -1,12 +1,9 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
 
 /* IMPORTE DE PARTIALS */
-/* IMPORTE DE PARTIALS */
-/* VISTA PARA MOVIL */
 @media (max-width: 480px) {
   .container-fluid header .nav {
     padding: 10px;
@@ -61,8 +58,6 @@
     line-height: 25px;
   }
 }
-/* IMPORTE DE PARTIALS */
-/* FUENTES */
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/Montserrat-Bold.ttf);
@@ -73,8 +68,6 @@
   src: url(../assets/fonts/Montserrat-Regular.ttf);
   font-weight: 400;
 }
-/* VARIABLES */
-/* TÍTULO DE TODAS LA PÁGINAS */
 .title_h1 {
   background-color: rgb(122, 122, 122);
   color: white;
@@ -88,7 +81,6 @@
   font-size: 30px;
 }
 
-/* TEXTOS SECUNDARIOS */
 .textbox {
   margin: 10px;
   height: auto;
@@ -159,8 +151,6 @@
   font-size: 20px;
 }
 
-/* IMPORTE DE PARTIALS */
-/* FORMULARIO */
 .formulario {
   outline: 0;
   border: 1px solid #ffffff;
@@ -216,12 +206,10 @@
   text-align: center;
 }
 
-/* LOGIN */
 .container-login {
-  background: rgb(131, 131, 131);
-  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(77, 77, 77) 100%);
+  background: rgb(49, 50, 99);
   font-family: "montserrat";
-  color: #000000;
+  color: #ffffff;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -239,9 +227,7 @@
 }
 
 .intro__box {
-  padding: 30px;
-  height: 600px;
-  width: 450px;
+  padding: 5px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -287,17 +273,16 @@
   border-radius: 10px;
 }
 
-/* REGISTER */
 .container-register {
-  background: rgb(168, 116, 18);
-  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(187, 104, 27) 100%);
+  background: rgb(49, 50, 99);
   font-family: "montserrat";
-  color: #000000;
+  color: #ffffff;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .register {
@@ -310,14 +295,15 @@
 }
 
 .register__box {
+  color: #474747;
   background: rgb(255, 255, 255);
-  width: 300px;
+  width: 650px;
   height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 10px 4px 10px 10px #706f6f;
+  box-shadow: 10px 4px 10px 10px rgb(9, 9, 71);
   border-radius: 20px;
 }
 .register__box img {
@@ -325,28 +311,53 @@
 }
 .register__box .register__item {
   padding: 10px;
-  margin: 10px;
 }
 .register__box .register__item--input {
+  padding: 5px;
   outline: 0;
   border: 1px solid #ccc;
   width: 80%;
+  height: 35px;
 }
 .register__box .register__item--button {
-  outline: 0;
+  margin: 8px;
+  font-weight: 700;
   border: 1px solid #474747;
+  outline: 0;
   width: 80%;
+  height: 50px;
+  margin: 17px 0px 0px 0px;
   border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgb(101, 123, 170);
+  cursor: pointer;
+  transition: 800ms ease all;
+}
+.register__box .register__item--button:hover {
+  background: rgb(80, 95, 131);
+  color: #ffffff;
 }
 .register__box .register__login--button {
-  outline: 0;
-  background-color: #00b44b;
+  margin: 8px;
+  font-weight: 700;
   border: 1px solid #474747;
+  outline: 0;
   width: 80%;
+  height: 50px;
+  margin: 17px 0px 0px 0px;
   border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #05a396;
+  cursor: pointer;
+  transition: 800ms ease all;
+}
+.register__box .register__login--button:hover {
+  background: #077c72;
+  color: #ffffff;
 }
 
-/* TABLA DE CASOS */
 .text__headline {
   padding: 15px;
   text-align: center;
@@ -416,6 +427,21 @@
   color: #ffffff;
 }
 
+.user__comments--group {
+  padding: 10px;
+  margin: 35px;
+}
+.user__comments--group .row .col .card {
+  background-color: rgb(200, 217, 228);
+}
+.user__comments--group .row .col .card h5 {
+  font-weight: 700;
+}
+.user__comments--group .row .col .card .comment__stars {
+  padding: 15px;
+  width: 150px;
+}
+
 /* CONTAINER-FLUID DE BOOTSTRAP */
 .container-fluid {
   font-family: "montserrat";
@@ -425,8 +451,6 @@
   background-color: rgb(49, 50, 99);
 }
 
-/* ++++ CONTENIDO ++++ */
-/* NAVEGADOR */
 header .nav {
   width: 100%;
   padding: 10px 30px;
@@ -465,12 +489,10 @@ header .nav .nav-logout .navigation__logout--button:hover {
   color: #ffffff;
 }
 
-/* TOAST VERDE DEL HOME */
 .listo {
   background-color: #00a364;
 }
 
-/* BANNER - IMÁGENES */
 .banner {
   padding: 15px;
   display: flex;
@@ -485,7 +507,6 @@ header .nav .nav-logout .navigation__logout--button:hover {
   width: 400px;
 }
 
-/* PIÉ DE PÁGINA */
 #footer {
   background-color: rgb(122, 122, 122);
   color: white;
