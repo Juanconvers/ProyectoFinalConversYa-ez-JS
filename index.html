@@ -15,6 +15,7 @@
 		crossorigin="anonymous"></script>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 	<link rel="stylesheet" href="./styles/main.style.css">
 </head>
 
@@ -22,28 +23,22 @@
 
 	<header class="row">
 		<nav class="nav navbar navbar-expand-md navbar-light">
-			<a href="../index.html"><img class="navigation__link--logo" src="./assets/images/logolegaliuris.png"
-					alt="logo-legal"></a>
+			<img class="navigation__link--logo" src="./assets/images/logolegaliuris.png" alt="logo-legal">
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link navigation__link" href="./servicios.html">SERVICIOS</a>
-					</li>
 					<li class="nav-item">
-						<a class="nav-link navigation__link" href="./contacto.html">CONTÁCTENOS</a>
+						<a class="nav-link navigation__link" href="#contacto">CONTÁCTENOS</a>
 					</li>
 				</ul>
 			</div>
-			<div class="nav-logout">
+			<div id="nav-logout" class="nav-logout">
 				<a href="./pages/login.html">
-					<button class="login__item--button navigation__logout--button" type="submit" id="submit">Cerrar
-						Sesión</button>
+					<button class="login__item--button navigation__logout--button" type="submit" id="submit">Cerrar Sesión</button>
 				</a>
-
 			</div>
 		</nav>
 	</header>
@@ -60,16 +55,16 @@
 				
 				.</h4>
 		</div> -->
-		
+
 		<section class="textbox">
 			<section class="textbox__location">
 				<div class="textbox__location-text">
-					
 					<div class="textbox__title_h2">
 						<h2 class="h2" data-aos="zoom-in">CALCULADORA DE COMPETENCIA JUDICIAL</h2>
 					</div>
 					<p class="textbox__paragraph">Hacemos la gestión de tu demanda más fácil<br>
-						La competencia judicial es saber el tipo de juzgado al que corresponde resolver tu proceso. <br> <br>
+						La competencia judicial es saber el tipo de juzgado al que corresponde resolver tu proceso. <br>
+						<br>
 						Allí deberás radicar la demanda correspondiente.<br>
 						Es simple. Llena el formulario y pulsa calcular.<br>
 					</p>
@@ -92,7 +87,8 @@
 						</div>
 						<div class="form__item"><br>
 							<label class="form__text" for="calcular"></label>
-							<input class="form__input--submit" type="submit" id="calcular" name="calcular" value="Calcular"></input>
+							<input class="btn form__input--submit" type="submit" id="calcular" name="calcular"
+								value="Calcular"></input>
 						</div>
 					</form>
 				</div>
@@ -117,28 +113,28 @@
 					</thead>
 					<tbody></tbody>
 				</table>
-					
 				<div class="text__headline">
 					<h3>ESTADÍSTICAS</h3>
 				</div>
-				
+
 				<div class="table__button-set">
 					<div>
-						<button  id="boton-estadisticas" class="table__button table__button--go" type="button" name="procesar">Procesar información</button>
+						<button id="boton-estadisticas" class="table__button table__button--go" type="button"
+							name="procesar">Procesar información</button>
 					</div>
 					<div>
-						<button  id="limpiar-tabla" class="table__button table__button--clear" type="button" name="limpiar">Limpiar tabla</button>
+						<button id="limpiar-tabla" class="table__button table__button--clear" type="button"
+							name="limpiar">Limpiar tabla</button>
 					</div>
-				</div>	
+				</div>
 
 				<div class="table__popup"></div>
 
-				<table id="tablaEstadisticas" class="table table__statistic">					
+				<table id="tablaEstadisticas" class="table table__statistic">
 					<thead>
 						<tr>
 							<th scope="col"></th>
 							<th scope="col">Resultado</th>
-							
 						</tr>
 					</thead>
 					<tbody>
@@ -178,13 +174,45 @@
 				</table>
 			</div>
 		</section>
-		
+
+		<section class="user__comments">
+
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+				<div class="col">
+				<div class="card h-100">
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 id="usuario1" class="card-title"></h5>
+					<p id="comentario1" class="card-text"></p>
+					</div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card h-100">
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 id="usuario2" class="card-title"></h5>
+					<p id="comentario2" class="card-text"></p>
+					</div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card h-100">
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 id="usuario3" class="card-title"></h5>
+					<p id="comentario3" class="card-text"></p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
 	</main>
 
 	<footer class="row">
 		<div id="footer">
 			<div class="footer__info">
-				<p class="footer__headline">CONTACTO</p>
+				<p id="contacto" class="footer__headline">CONTACTO</p>
 				<p class="footer__paragraph">Centro Comercial Bulevar - Local 277 <br>
 					Calle 127 No. 56-12, Bogotá D.C. <br>
 					hola@legal.com <br>
@@ -223,9 +251,12 @@
 
 	<script src="./scripts/main.js"></script>
 	<script src="./scripts/tools.js"></script>
+	<script src="./scripts/main-comments.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 	<script> AOS.init();</script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
 		crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -34,10 +34,17 @@ formulario.addEventListener("submit", function(e){
 
       if (avaluo !== NaN && porcentaje !== NaN) {
         cuantia = (avaluo * porcentaje) / 100;
-      } else () => console.log("No se puede procesar la solicitud desde el principio");
-
-      // REEMPLAZAR - REEMPLAZAR - REEMPLAZAR- -REEMPLAZAR - REEMPLAZAR //
-
+      } else () => 
+          Toastify({
+            text: "No es posible hacer el cálculo. Datos incorrectos",
+            duration: 3000,
+            gravity: 'bottom',
+            position: 'right',
+            style: {
+              background: "linear-gradient(to right, #ff002b, #ff002b)",
+            }
+            }).showToast();
+        
       if (cuantia !== NaN) {
         if (cuantia <= 46400000) {
           cuantiaCaso = "Mínima Cuantía";
@@ -52,17 +59,27 @@ formulario.addEventListener("submit", function(e){
           juzgado = "Juzgado Civil del Circuito";
           
         } else {
-                // REEMPLAZAR - REEMPLAZAR - REEMPLAZAR- -REEMPLAZAR - REEMPLAZAR
-
-          alert("No se puede procesar la información");
+          Toastify({
+            text: "Sus resultados están listos",
+            duration: 3000
+            }).showToast();
         }
       }
       agregarCasoAlSistema(nombreCaso,avaluo,porcentaje,cuantia,cuantiaCaso,juzgado)
       llenartabladecasos();
+      limpiartablacalculoestadistica ();
       formulario.reset();
     
+      Toastify({
+        text: "Sus resultados están listos",
+        duration: 3000,
+        gravity: 'top',
+        position: 'right',
+        style: {
+          background: "linear-gradient(to right, #00a364, #00a364)",
+        }
+        }).showToast(); 
     })
-
 
 const estadisticas = document.getElementById("boton-estadisticas");
 
@@ -70,16 +87,25 @@ estadisticas.addEventListener("click", () => {
   const esperePopup = document.querySelector(".table__popup");
   esperePopup.innerHTML = `<p>Por favor espere mientras procesamos su solicitud</p>`;
   esperePopup.classList.add("text__headline");
+  esperePopup.classList.add("text__headline--warning");
     setTimeout(() => {
-    
-      esperePopup.classList.remove("text__headline");
-      esperePopup.innerHTML = `<p></p>`;
-      calculoestadistica();
-  }, 3 * 1000)
-
- 
-  // promedioavaluos();
   
-
+      esperePopup.classList.remove("text__headline");
+      esperePopup.classList.remove("text__headline--warning");
+      esperePopup.innerHTML = `<p></p>`;
+      llenartablacalculoestadistica();
+  }, 4 * 1000)
 })
 
+const limpiarestadisticas = document.getElementById("limpiar-tabla");
+
+limpiarestadisticas.addEventListener("click", () => {
+  limpiartablacalculoestadistica ();
+})
+
+const cerrarcesion = document.getElementById("nav-logout");
+
+cerrarcesion.addEventListener("click", () => {
+  window.location.href = "./login.html";
+  sessionStorage.removeItem("arrayEnSessionStorage");
+})

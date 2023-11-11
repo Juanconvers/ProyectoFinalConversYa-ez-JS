@@ -39,47 +39,36 @@ function llenartabladecasos(){
     }
 } 
 
-function calculoestadistica (){
+function llenartablacalculoestadistica (){
     const numerototaldecasos = arraycompleto.length;
     let casilla1 = document.querySelector("#casilla_1");
     casilla1.textContent = `${arraycompleto.length} casos`;
-    
-    console.log(numerototaldecasos);
    
       const casosMinimaCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Mínima Cuantía")
-      console.log(casosMinimaCuantia);
       let casilla2 = document.querySelector("#casilla_2");
       casilla2.textContent = `${casosMinimaCuantia.length} casos`;
 
       let casilla3 = document.querySelector("#casilla_3");
       casilla3.textContent = arraycompleto.length;
 
-
       const casosMenorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Menor Cuantía")
-      console.log(casosMenorCuantia);
-    
       let casilla4 = document.querySelector("#casilla_4");
       casilla4.textContent = `${casosMenorCuantia.length} casos`;
 
       let casilla5 = document.querySelector("#casilla_5");
       casilla5.textContent = arraycompleto.length;
       
-
       const casosMayorCuantia = arraycompleto.filter(x => x.lacuantiaCaso === "Mayor Cuantía")
-      console.log(casosMayorCuantia);
-
       let casilla6 = document.querySelector("#casilla_6");
       casilla6.textContent = `${casosMayorCuantia.length} casos`;
 
       let casilla7 = document.querySelector("#casilla_7");
       casilla7.textContent = arraycompleto.length;
 
-
       // promedio
 
       let casilla8 = document.querySelector("#casilla_8");
       casilla8.textContent = arraycompleto.length;
-
 };
 
 
@@ -128,13 +117,23 @@ function calculoestadistica (){
 // });
 
 
-  //         *** SECCIÓN 5: IMPRESIÓN DE LA CLASIFICACIÓN ANTERIOR CREANDO EN EL DOM UN DIV QUE LLEVA LA CUENTA  ***
-
-  // let tablaEstadistica = document.getElementById("estadistica");
-  // let cantidadCasos = document.createElement("div");
-  // cantidadCasos.classList.add("text__headline");
-  // cantidadCasos.innerHTML = "<h3>CANTIDAD DE CASOS REGISTRADOS</h3>";
-  // cantidadCasos.innerHTML += `<p>La cantidad de casos de Mínima cuantía es: ${casosMinimaCuantia.length} </p>`;
-  // cantidadCasos.innerHTML += `<p>La cantidad de casos de Menor cuantía es: ${casosMenorCuantia.length} </p>`;
-  // cantidadCasos.innerHTML += `<p>La cantidad de casos de Mayor cuantía es: ${casosMayorCuantia.length} </p>`;
-  // tablaEstadistica.append(cantidadCasos);
+function limpiartablacalculoestadistica (){
+  
+  let casilla1 = document.querySelector("#casilla_1");
+  casilla1.textContent = ``;
+ 
+    let casilla2 = document.querySelector("#casilla_2");
+    casilla2.textContent = "";
+    let casilla3 = document.querySelector("#casilla_3");
+    casilla3.textContent = "";
+    let casilla4 = document.querySelector("#casilla_4");
+    casilla4.textContent = "";
+    let casilla5 = document.querySelector("#casilla_5");
+    casilla5.textContent = "";
+    let casilla6 = document.querySelector("#casilla_6");
+    casilla6.textContent = "";
+    let casilla7 = document.querySelector("#casilla_7");
+    casilla7.textContent = "";
+    let casilla8 = document.querySelector("#casilla_8");
+    casilla8.textContent = "";
+};

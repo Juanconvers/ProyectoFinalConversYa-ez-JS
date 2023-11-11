@@ -192,109 +192,28 @@
   border-radius: 10px;
 }
 .formulario .form .form__item .form__input--submit {
-  color: #ffffff;
-  background-color: #05a396;
+  font-size: 20px;
   font-weight: 700;
   width: 400px;
   height: 50px;
   outline: 0;
   border: 1px solid #474747;
   border-radius: 10px;
-}
-
-.textbox__table {
-  color: white;
-  margin: 40px;
-  padding: 50px;
-  border: 1px solid #ffffff;
-  border-radius: 10px;
-  background-color: rgb(30, 54, 82);
-}
-.textbox__table .table thead tr {
-  font-size: 20px;
-  background-color: rgb(253, 245, 127);
-}
-.textbox__table .table tbody td {
-  background-color: rgb(253, 245, 127);
-}
-.textbox__table .table__cases {
-  text-align: center;
-}
-.textbox__table .table__statistic {
-  text-align: center;
-  padding: 25px;
-}
-.textbox__table .table__button-set {
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.textbox__table .table__button-set .table__button {
-  margin: 8px;
-  font-weight: 700;
-  width: 300px;
-  height: 50px;
-  outline: 0;
-  border: 1px solid #474747;
-  border-radius: 10px;
-}
-.textbox__table .table__button-set .table__button--go {
   color: #ffffff;
   background-color: #05a396;
+  cursor: pointer;
+  transition: 800ms ease all;
 }
-.textbox__table .table__button-set .table__button--clear {
+.formulario .form .form__item .form__input--submit:hover {
+  background: #077c72;
   color: #ffffff;
-  background-color: rgb(94, 110, 117);
 }
 
-/* CONTAINER-FLUID DE BOOTSTRAP */
-.container-fluid {
-  font-family: "montserrat";
-  color: #ffffff;
-  overflow: auto;
-  margin: 0;
-  background-color: rgb(49, 50, 99);
-}
-
-/* ++++ CONTENIDO ++++ */
-/* NAVEGADOR */
-header .nav {
-  width: 100%;
-  padding: 10px 30px;
-  overflow: auto;
-}
-header .nav .navigation__link--logo {
-  width: 450px;
-  padding: 0 30px;
-  outline: none;
-}
-header .nav .navigation__link--logo:hover {
-  transform: scale(1.1);
-}
-header .nav .navigation__link {
-  margin: 15px;
-  font-size: 16px;
+.text__headline--warning {
+  color: #ff002b;
   font-weight: 700;
-  color: #ffffff;
-  text-decoration-line: none;
-}
-header .nav .navigation__link:hover {
-  color: rgb(170, 170, 170);
-}
-header .nav .nav-logout .navigation__logout--button {
-  font-weight: 700;
-  background-color: #c29534;
-  width: 180px;
-  height: 35px;
-  padding: 0 30px;
-  outline: 0;
-  border: 1px solid #474747;
-  border-radius: 10px;
-}
-header .nav .nav-logout .navigation__logout--button:hover {
-  transform: scale(1.2);
+  font-size: 35px;
+  text-align: center;
 }
 
 /* LOGIN */
@@ -335,7 +254,7 @@ header .nav .nav-logout .navigation__logout--button:hover {
 .intro__box .intro__box--alert {
   font-weight: 700;
   font-size: 20px;
-  color: #da0000;
+  color: #ff002b;
 }
 
 .login__box {
@@ -427,6 +346,130 @@ header .nav .nav-logout .navigation__logout--button:hover {
   border-radius: 10px;
 }
 
+/* TABLA DE CASOS */
+.text__headline {
+  padding: 15px;
+  text-align: center;
+}
+.text__headline h3 {
+  font-weight: 700;
+}
+
+.textbox__table {
+  color: white;
+  margin: 40px;
+  padding: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: rgb(30, 54, 82);
+}
+.textbox__table .table thead tr {
+  font-size: 20px;
+  background-color: rgb(253, 245, 127);
+}
+.textbox__table .table tbody td {
+  background-color: rgb(253, 245, 127);
+}
+.textbox__table .table__cases {
+  text-align: center;
+}
+.textbox__table .table__statistic {
+  text-align: center;
+  padding: 25px;
+}
+.textbox__table .table__button-set {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.textbox__table .table__button-set .table__button {
+  margin: 8px;
+  font-weight: 700;
+  width: 300px;
+  height: 50px;
+  outline: 0;
+  border: 1px solid #474747;
+  border-radius: 10px;
+}
+.textbox__table .table__button-set .table__button--go {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #05a396;
+  cursor: pointer;
+  transition: 800ms ease all;
+}
+.textbox__table .table__button-set .table__button--go:hover {
+  background: #077c72;
+  color: #ffffff;
+}
+.textbox__table .table__button-set .table__button--clear {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgb(101, 123, 170);
+  cursor: pointer;
+  transition: 800ms ease all;
+}
+.textbox__table .table__button-set .table__button--clear:hover {
+  background: rgb(80, 95, 131);
+  color: #ffffff;
+}
+
+/* CONTAINER-FLUID DE BOOTSTRAP */
+.container-fluid {
+  font-family: "montserrat";
+  color: #ffffff;
+  overflow: auto;
+  margin: 0;
+  background-color: rgb(49, 50, 99);
+}
+
+/* ++++ CONTENIDO ++++ */
+/* NAVEGADOR */
+header .nav {
+  width: 100%;
+  padding: 10px 30px;
+  overflow: auto;
+}
+header .nav .navigation__link--logo {
+  width: 450px;
+  padding: 0 30px;
+}
+header .nav .navigation__link {
+  margin: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration-line: none;
+}
+header .nav .navigation__link:hover {
+  color: rgb(170, 170, 170);
+}
+header .nav .nav-logout .navigation__logout--button {
+  font-weight: 700;
+  font-size: 15px;
+  width: 180px;
+  height: 35px;
+  padding: 0 30px;
+  outline: 0;
+  border: 1px solid #474747;
+  border-radius: 10px;
+  color: #46360c;
+  background-color: #daa22c;
+  cursor: pointer;
+  transition: 800ms ease all;
+}
+header .nav .nav-logout .navigation__logout--button:hover {
+  background: #af8323;
+  color: #ffffff;
+}
+
+/* TOAST VERDE DEL HOME */
+.listo {
+  background-color: #00a364;
+}
+
 /* BANNER - IMÁGENES */
 .banner {
   padding: 15px;
@@ -440,15 +483,6 @@ header .nav .nav-logout .navigation__logout--button:hover {
 .banner .banner__image {
   padding: 15px;
   width: 400px;
-}
-
-/* TABLA DE CASOS */
-.text__headline {
-  padding: 15px;
-  text-align: center;
-}
-.text__headline h3 {
-  font-weight: 700;
 }
 
 /* PIÉ DE PÁGINA */
