@@ -54,11 +54,15 @@ Explicación del programa:
 
     10. El botón "Limpiar Tabla" de esta sección "ESTADÍSTICA" borra los datos de la tabla para seguirlos actualizando con más entradas en la función de Calculadora Judicial.
 
-    11. Finalmente el usuario encontrará la sección "NUESTROS CLIENTES NOS RECOMIENDAN" que reune comentarios de clientes satisfechos.
+    11. En seguida se encontrará dos secciones sobre la clientela del negocio.
+    
+    11.1. La primera, titulada "LA SATISFACCIÓN DE NUESTROS USUARIOS HABLA POR SÍ SOLA", reúne comentarios de clientes satisfechos.
 
-        La información de estos usuarios fue importada al programa desde la API JSONPLACEHOLDER tomando de sus arrays nombre de usuario y comentarios.
+    11.2. La segunda, al pulsar el botón "¿Quieres conocer nuestra lista de clientes distinguidos?" permite desplegar una lista de clientes de la aplicación.  
+    
+        La información de los usuarios de la sección de clientes se importa al programa desde la API JSONPLACEHOLDER tomando de sus arrays nombre de usuario, comentarios, email y teléfono. Se implementó async y await previendo demoras en la descarga de la información.
 
-    12. Si quiere salir del programa, pulse el botón de Cerrar Sesión ubicado en la parte superior derecha de la página. El usuario será devuelto a la página Login y los datos de los cálculos realizados en su sesión se borrarán.
+    12. Si quiere salir del programa, pulse el botón de Cerrar Sesión ubicado en la parte superior derecha de la página. El usuario será devuelto a la página Login y los datos de los cálculos realizados en su sesión se borrarán.    
 
 
 

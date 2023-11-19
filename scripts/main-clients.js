@@ -1,30 +1,23 @@
 
 let listaDeClientes = "https://jsonplaceholder.typicode.com/users";
-const listaUsuarios = document.querySelector("#lista__usuarios");
 
-async function traerClientes() {
+const TABLAUSUARIOSCUERPO = document.querySelector("#tabla__usuarios tbody");  
+
+async function traerClientes() {           
     await fetch(listaDeClientes)
         .then( (response) => response.json() )
         .then( (usuarios) => {
+            console.log(usuarios);
             usuarios.forEach(usuario => {
-                const li = document.createElement("li");
-                li.textContent = usuario.name;
-                listaUsuarios.append(li);
+                const TR = document.createElement("tr");
+                TR.innerHTML =  `
+                            <tr>    		
+                                <td>${usuario.name}</td>
+                                <td>${usuario.phone}</td>
+                                <td>${usuario.email}</td>
+                            </tr>
+					        `;
+                TABLAUSUARIOSCUERPO.append(TR);
             })
         })
-}
-
-
-
-
-//       let esperePopup = document.querySelector(".table__popup");
-//   esperePopup.innerHTML = `<p>Por favor espera mientras procesamos tu solicitud</p>`;
-//   esperePopup.classList.add("text__headline");
-//   esperePopup.classList.add("text__headline--warning");
-//     setTimeout(() => {
-  
-//       esperePopup.classList.remove("text__headline");
-//       esperePopup.classList.remove("text__headline--warning");
-//       esperePopup.innerHTML = `<p></p>`;
-//       llenartablacalculoestadistica();
-//   }, 4 * 1000)
+    }

@@ -105,10 +105,22 @@ LIMPIARESTADISTICAS.addEventListener("click", () => {
 const CLIENTES = document.getElementById("boton-clientes");
 
 CLIENTES.addEventListener("click", () => {
-  traerClientes();
-  console.log(listaDeClientes);
-})
+  let pregunta = document.querySelector(".question");
+  pregunta.remove();
+  let botonclientes = document.querySelector("#boton-clientes");
+  botonclientes.remove();
 
+  const TABLAUSUARIOSENCABEZADO = document.querySelector("#tabla__usuarios thead");
+        TABLAUSUARIOSENCABEZADO.innerHTML = `
+            <tr>
+							<th scope="col">Nombre</th>
+							<th scope="col">Teléfono</th>
+              <th scope="col">Email</th>
+						</tr>
+            `;
+            TABLAUSUARIOSENCABEZADO.append();
+  traerClientes();
+})
 
 const CERRARSESION = document.getElementById("nav-logout");
 
