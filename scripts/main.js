@@ -102,6 +102,14 @@ LIMPIARESTADISTICAS.addEventListener("click", () => {
   limpiartablacalculoestadistica ();
 })
 
+const CLIENTES = document.getElementById("boton-clientes");
+
+CLIENTES.addEventListener("click", () => {
+  traerClientes();
+  console.log(listaDeClientes);
+})
+
+
 const CERRARSESION = document.getElementById("nav-logout");
 
 CERRARSESION.addEventListener("click", () => {
